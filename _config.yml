@@ -3,13 +3,13 @@ highlighter: rouge
 relative_permalinks: false
 permalink: /blog/:title/
 excerpt_separator: <!--more-->
-twitter: Arr0way
-twitter_username: Arr0way
+twitter: Dhruv Ambaliya
+twitter_username: Dhruv Ambaliya
 gauges_id:
 google_analytics_id:
-production_url: https://highon.coffee
-repository: https://github.com/Arr0way/arr0way.github.io.git
-url: https://highon.coffee
+production_url: https://hacksofdhruv.me
+repository: https://github.com/dhruv-ambaliya/dhruv-ambaliya.github.io.git
+url: https://dhruv-ambaliya.github.io
 plugins:
   - jekyll-sitemap
 
