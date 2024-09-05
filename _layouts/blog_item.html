@@ -1,0 +1,80 @@
+---
+layout: blog
+---
+
+<article>
+  <h2>
+    {{ page.title }}
+    <a href="{{ page.url }}" class="permalink" title="Permalink">∞</a>
+  </h2>
+  <span class="post-category">
+    <span class="label">
+      {{ page.categories | array_to_sentence_string }}
+    </span>
+  </span>
+  <div class="post-meta">
+    <span class="post-date">
+      {{ page.date | date_to_string }}
+    </span>
+    <a href="https://twitter.com/{{ page.author }}" class="post-author">
+      <img src="https://github.com/{{ page.author }}.png" class="avatar" alt="{{ page.author }}" width="24" height="24">
+      {{ page.author }}
+    </a>
+  </div>
+  
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <section class="share-box">
+    <div class="grid">
+      <div class="unit whole">
+        <div class="grid pane">
+          <div class="unit whole center-on-mobiles">
+            <div class="pane-content">
+              <h2>Share this on...</h2>
+              <p><a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via=Arr0way&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter</a>
+              <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i> Facebook</a>
+              <a href="https://www.reddit.com/submit?url={{ site.url }}{{ page.url }}&title={{ page.title }}" rel="nofollow" target="_blank" title="Share on Reddit"><i class="fa fa-reddit-square" aria-hidden="true"></i> Reddit</a></p>
+
+              <h2>Join us On Reddt @HighOnCoffee</h2>
+              <p><a href="https://www.reddit.com/r/HighOnCoffee/" target="_blank" title="Sub to @HighOnCoffee on Reddit"><i class="fa fa-reddit-square" aria-hidden="true"></i> Join the @HighOnCoffee community on Reddit</a>
+
+
+              <h2><br>Follow Arr0way</h2>
+              <p><a href="https://infosec.exchange/@Arr0way" rel="nofollow" target="_blank" title="Follow Arr0way on Mastodon"><i class="fa fa-twitter-square" aria-hidden="true"></i> Mastodon</a>
+              <p><a href="https://twitter.com/Arr0way" rel="nofollow" target="_blank" title="Follow Arr0way on Twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter</a>
+              <a href="https://github.com/Arr0way" rel="nofollow" target="_blank" title="Follow Arr0way on GitHub"><i class="fa fa-github-square" aria-hidden="true"></i> GitHub</a></p>
+            <p><br></p>
+            </div>
+           </div>
+           <h2><br>Also... <br> <br>You might want to read these</h2>
+      </div>
+    </div>
+  </section>
+
+  <div class="mobile-side-scroller">
+  <table>
+    <thead>
+      <tr>
+        <th>Category</th>
+        <th>Post Name</th>
+      </tr>
+    </thead>
+        <tbody>
+          {% for post in site.related_posts %}
+          <tr>
+             <td>
+               <pc><p><code>{{ post.categories }}</code></p></pc>
+             </td>
+             <td>
+               <pc><p><b><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></b></p></pc>
+             </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+
+  </table>
+  </div>
+
+</article>

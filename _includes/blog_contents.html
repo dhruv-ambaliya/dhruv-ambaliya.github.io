@@ -1,0 +1,108 @@
+<div class="unit one-fifth hide-on-mobiles">
+  <aside>
+    <ul>
+      <li class="{% if page.title == 'Blog' %}current{% endif %}">
+        <a href="/penetration-testing/">What is Penetration Testing</a>
+      </li>
+      <li class="{% if page.title == 'Cheat Sheet' %}current{% endif %}">
+        <a href="/blog/cheat-sheet/">Cheat Sheets</a> 
+      </li>
+      <li class="{% if page.title == 'Techniques' %}current{% endif %}">
+        <a href="/blog/techniques/">Techniques</a>
+      </li>
+      <li class="{% if page.title == 'Security Hardening' %}current{% endif %}">
+        <a href="/blog/security-hardening/">Security Hardening</a>
+      </li>
+      <li class="{% if page.title == 'WalkThroughs' %}current{% endif %}">
+        <a href="/blog/walkthroughs/">WalkThroughs</a>
+      </li>
+    </ul>
+    <h4>Cheat Sheets</h4>
+    <ul>
+      {% for post in site.categories.cheat-sheet %}
+        {% unless post.draft %}
+           <li class="{% if page.title == post.title %}current{% endif %}">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+           </li>
+        {% endunless %}
+      {% endfor %}
+      <li>
+        <a href="/blog/cheat-sheet/">More »</a>
+      </li>
+    </ul>
+    <h4>WalkThroughs</h4>
+    <ul>
+      {% for post in site.categories.walkthroughs limit:5 %}
+        {% unless post.draft %}
+           <li class="{% if page.title == post.title %}current{% endif %}">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+           </li>
+        {% endunless %}
+      {% endfor %}
+      <li>
+        <a href="/blog/walkthroughs/">More »</a>
+      </li>
+    </ul>
+    <h4>Techniques</h4>
+    <ul>
+      {% for post in site.categories.techniques %}
+        {% unless post.draft %}
+           <li class="{% if page.title == post.title %}current{% endif %}">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+           </li>
+        {% endunless %}
+      {% endfor %}
+      <li>
+        <a href="/blog/techniques/">More »</a>
+      </li>
+    </ul>
+    <h4>Security Hardening</h4>
+    <ul>
+      {% for post in site.categories.security-hardening %}
+        {% unless post.draft %}
+           <li class="{% if page.title == post.title %}current{% endif %}">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+           </li>
+        {% endunless %}
+      {% endfor %}
+      <li>
+        <a href="/blog/security-hardening/">More »</a>
+      </li>
+    </ul>
+    <h4>/dev/urandom</h4>
+    <ul>
+      {% for post in site.categories.urandom %}
+        {% unless post.draft %}
+           <li class="{% if page.title == post.title %}current{% endif %}">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+           </li>
+        {% endunless %}
+      {% endfor %}
+      <li>
+        <a href="/blog/urandom/">More »</a>
+      </li>
+    </ul>
+    <h4>Other Blog</h4>
+    <ul>
+        {% for post in site.posts %}
+          {% unless post.categories contains 'walkthroughs' %}
+            {% unless post.categories contains 'cheat-sheet' %} 
+              {% unless post.categories contains 'security-hardening' %}
+                {% unless post.categories contains 'tools' %}
+                  {% unless post.categories contains 'techniques' %}
+                    {% unless post.categories contains 'one-liner' %}
+                      {% unless post.draft %}
+                  <li class="{% if page.title == post.title %}current{% endif %}">
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                  </li>
+                     {% endunless %}
+                   {% endunless %}
+                  {% endunless %}
+                {% endunless %}  
+              {% endunless %}
+            {% endunless %}
+          {% endunless %}
+        {% endfor %}
+    </ul>
+  </aside>
+</div>
