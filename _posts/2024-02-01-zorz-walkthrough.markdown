@@ -1,7 +1,7 @@
 ---
 layout: blog_item
 title: "Zorz Walkthrough"
-date: "2015-07-01"
+date: "2024-02-01"
 author: Dhruv Ambaliya
 description: 'Zorz - Walkthrough Guide'
 categories: [walkthroughs]
@@ -14,10 +14,10 @@ tags:
       <tbody>
         <tr>
            <td>
-               <p><code>Coffee Difficulty Rating:</code></p>
+               <p><code>Difficulty Rating:</code></p>
            </td>
            <td>
-               <p><i class="fa fa-coffee"></i></p>
+               <p><i class="fa fa-coffee">Easy</i></p>
            </td>
         </tr>
       </tbody>
