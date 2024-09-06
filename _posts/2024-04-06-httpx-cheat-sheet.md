@@ -2,7 +2,7 @@
 layout: blog_item
 title:  "httpx Cheat Sheet - Commands & Examples Tutorial"
 date:   2024-06-04 05:37:10
-author: Arr0way
+author: Dhruv Ambaliya
 description: 'httpx cheat sheet - Learn the httpx toolkit with this Tutorial containing Flags, & httpx Command Examples.'
 categories: [cheat-sheet]
 tags:
