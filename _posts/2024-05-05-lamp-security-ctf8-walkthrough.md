@@ -1,7 +1,7 @@
 ---
 layout: blog_item
 title:  "LAMP Security CTF8 - Walkthrough"
-date:   2014-05-05 11:00:60
+date:   2024-05-05 11:00:60
 author: Dhruv Ambaliya
 description: 'VulnHub CTF8 - Walkthrough Guide'
 categories: [walkthroughs]
@@ -15,10 +15,10 @@ tags:
       <tbody>
         <tr>
            <td>
-               <p><code>Coffee Difficulty Rating:</code></p>
+               <p><code>Difficulty Rating:</code></p>
            </td>
            <td>
-               <p><i class="fa fa-coffee"></i></p>
+               <p><i class="fa fa-coffee">Easy</i></p>
            </td>
         </tr>
       </tbody>
