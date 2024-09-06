@@ -1,7 +1,7 @@
 ---
 layout: blog_item
 title:  "LAMP Security CTF6 - Walkthrough"
-date:   2014-03-04 19:40:60
+date:   2024-03-04 19:40:60
 author: Dhruv Ambaliya
 description: 'LAMP Security CTF 6 - Walkthrough Guide'
 categories: [walkthroughs]
@@ -18,7 +18,7 @@ tags:
                <p><code>Coffee Difficulty Rating:</code></p>
            </td>
            <td>
-               <p><i class="fa fa-coffee"></i></p>
+               <p><i class="fa fa-coffee">Easy</i></p>
            </td>
         </tr>
       </tbody>
