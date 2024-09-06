@@ -20,7 +20,7 @@ tags:
 
 The focus of this cheat sheet is infrastructure / network penetration testing, web application penetration testing is not covered here apart from a few SQLMap commands at the end and some web server enumeration. For Web Application Penetration Testing, check out the Web Application Hackers Hand Book, it is excellent for both learning and reference.
 
-If I'm missing any pen testing tools here give me a nudge on twitter. 
+If I'm missing any pen testing tools here, please let me know on LinkedIn.
 
 * list element with functor item
 {:toc}
