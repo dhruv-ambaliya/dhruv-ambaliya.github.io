@@ -14,10 +14,10 @@ tags:
       <tbody>
         <tr>
            <td>
-               <p><code>Difficulty Rating: Easy</code></p>
+               <p><code>Difficulty Rating:</code></p>
            </td>
            <td>
-               <p><i class="fa fa-coffee"></i></p>
+               <p><i class="fa fa-coffee">Easy</i></p>
            </td>
         </tr>
       </tbody>
