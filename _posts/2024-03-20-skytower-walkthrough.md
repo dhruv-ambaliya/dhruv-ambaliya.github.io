@@ -1,7 +1,7 @@
 ---
 layout: blog_item
 title:  "SkyTower - Walkthrough"
-date:   2015-07-20 15:00:60
+date:   2024-03-20 15:00:60
 author: Dhruv Ambaliya
 description: 'SkyTower 1, a VulnHub CTF Walkthrough Guide'
 categories: [walkthroughs]
@@ -14,10 +14,10 @@ tags:
       <tbody>
         <tr>
            <td>
-               <p><code>Coffee Difficulty Rating:</code></p>
+               <p><code>Difficulty Rating:</code></p>
            </td>
            <td>
-               <p><i class="fa fa-coffee"></i><i class="fa fa-coffee"></i></p>
+               <p><i class="fa fa-coffee">Intermediate</i></p>
            </td>
         </tr>
       </tbody>
