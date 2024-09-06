@@ -1,8 +1,8 @@
 ---
 layout: blog_item
 title: "/dev/random: Sleepy Walkthrough CTF"
-date: "2015-11-26 23:12:52 +0200"
-author: Arr0way
+date: "2024-03-26 23:12:52 +0200"
+author: Dhruv Ambaliya
 categories: [walkthroughs]
 description: "/dev/random: Sleepy walkthrough - step by step walkthrough for Sleepy a VulnHub Boot2Root CTF challenge."
 ---
@@ -12,10 +12,10 @@ description: "/dev/random: Sleepy walkthrough - step by step walkthrough for Sle
       <tbody>
         <tr>
            <td>
-               <p><code>Coffee Difficulty Rating:</code></p>
+               <p><code>Difficulty Rating:</code></p>
            </td>
            <td>
-               <p></i><i class="fa fa-coffee"></i><i class="fa fa-coffee"></i></p>
+               <p></i><i class="fa fa-coffee">Intermediate</i></p>
            </td>
         </tr>
       </tbody>
