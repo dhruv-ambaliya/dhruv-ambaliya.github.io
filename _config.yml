@@ -9,7 +9,7 @@ gauges_id:
 google_analytics_id:
 production_url: https://hacksofdhruv.me
 repository: https://github.com/dhruv-ambaliya/dhruv-ambaliya.github.io.git
-url: https://dhruv-ambaliya.github.io
+url: https://hacksofdhruv.me
 plugins:
   - jekyll-sitemap
 
