@@ -1,7 +1,7 @@
 ---
 layout: blog_item
 title:  "LAMP Security CTF4 - Walkthrough"
-date:   2014-01-10 18:00:10
+date:   2024-01-10 18:00:10
 author: Dhruv Ambaliya
 description: 'LAMP Security CTF 4 - Walkthrough Guide'
 categories: [walkthroughs]
@@ -15,10 +15,10 @@ tags:
       <tbody>
         <tr>
            <td>
-               <p><code>Coffee Difficulty Rating:</code></p>
+               <p><code>Difficulty Rating:</code></p>
            </td>
            <td>
-               <p><i class="fa fa-coffee"></i></p>
+               <p><i class="fa fa-coffee">Beginners</i></p>
            </td>
         </tr>
       </tbody>
