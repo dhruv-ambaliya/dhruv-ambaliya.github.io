@@ -1,7 +1,7 @@
 ---
 layout: blog_item
 title:  "Kioptrix Level 2014 Walkthrough"
-date:   2014-04-15 14:00:10
+date:   2024-04-15 14:00:10
 author: Dhruv Ambaliya
 description: 'Kioptrix 2014 Walkthrough, CTF solution for Kioptrix Level 2014.'
 categories: [walkthroughs]
@@ -14,10 +14,10 @@ tags:
       <tbody>
         <tr>
            <td>
-               <p><code>Coffee Difficulty Rating:</code></p>
+               <p><code>Difficulty Rating:</code></p>
            </td>
            <td>
-               <p><i class="fa fa-coffee"></i></p>
+               <p><i class="fa fa-coffee">Easy</i></p>
            </td>
         </tr>
       </tbody>
