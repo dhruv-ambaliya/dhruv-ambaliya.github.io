@@ -1,7 +1,7 @@
 ---
 layout: blog_item
 title:  "Kioptrix Level 1.1 Walkthrough"
-date:   2013-12-20 14:00:10
+date:   2023-12-20 14:00:10
 author: Dhruv Ambaliya
 description: 'Kioptrix Level 1.1 Walkthrough, CTF solution for Kioptrix Level 1.1'
 categories: [walkthroughs]
@@ -14,7 +14,7 @@ tags:
       <tbody>
         <tr>
            <td>
-               <p><code>Coffee Difficulty Rating:</code></p>
+               <p><code>Difficulty Rating: Easy</code></p>
            </td>
            <td>
                <p><i class="fa fa-coffee"></i></p>
