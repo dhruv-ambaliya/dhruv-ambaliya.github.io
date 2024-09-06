@@ -1,8 +1,8 @@
 ---
 layout: blog_item
 title:  "Katana Cheat Sheet - Commands, Flags & Examples"
-date:   2024-06-10 14:37:10
-author: Arr0way
+date:   2024-06-06 14:37:10
+author: Dhruv Ambaliya
 description: 'Katana install, examples and Katana commands cheatsheet'
 categories: [cheat-sheet]
 tags:
