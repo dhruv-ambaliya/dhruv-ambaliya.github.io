@@ -1,7 +1,7 @@
 ---
 layout: blog_item
 title:  "Linux Commands Cheat Sheet"
-date:   2014-11-2 08:20:10
+date:   2024-01-2 08:20:10
 author: Dhruv Ambaliya
 description: 'Linux Command Cheat Sheet and examples for penetration testing.'
 categories: [cheat-sheet]
