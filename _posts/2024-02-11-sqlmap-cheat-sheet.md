@@ -2,7 +2,7 @@
 layout: blog_item
 title:  "SQLMap Cheat Sheet: Flags & Commands for SQL Injection"
 date:   2024-02-11 14:37:10
-author: Arr0way
+author: Dhruv Ambaliya
 description: 'SQLMap cheat sheet - Learn SQLMap with this Tutorial containing Flags, & SQLMap Command Examples.'
 categories: [cheat-sheet]
 tags:
@@ -1348,5 +1348,5 @@ If you found this SQLMap cheat sheet useful, please share it below.
 ## Document Changelog 
 
 - **Last Updated:** 12/02/2024 (12th of February 2024)
-- **Author:** Arr0way 
+- **Author:** Dhruv Ambaliya
 - **Notes:** SQLMap cheat sheet created. 
