@@ -1,7 +1,7 @@
 ---
 layout: blog_item
 title: "Freshly Walkthrough"
-date: "2024-06-14"
+date: "2023-12-14"
 author: Dhruv Ambaliya
 description: 'Freshly - Walkthrough Guide'
 categories: [walkthroughs]
