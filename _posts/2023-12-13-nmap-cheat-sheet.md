@@ -1,7 +1,7 @@
 ---
 layout: blog_item
 title:  "Nmap Cheat Sheet: Commands, Flags, Switches & Examples (2024)"
-date:   2024-06-09 10:37:10
+date:   2023-12-13 10:37:10
 author: Dhruv Ambaliya
 description: 'Nmap Cheat Sheet, learn Nmap commands, flags & real world exmaples allowing you to leverage the OG portscanner.'
 categories: [cheat-sheet]
@@ -14,7 +14,7 @@ tags:
 
 The following Nmap cheat sheet aims to explain what Nmap is, what it does, and how to use it by providing Nmap command examples in a cheat sheet style documentation format.
 
-Orignal Published Date: 11th December 2014
+Orignal Published Date: 13th December 2023
 
 ## What is Nmap?
 
@@ -1439,9 +1439,9 @@ You can find a lot of the current Nmap scripts list at [https://nmap.org/nsedoc/
 
 ## Document Changelog 
 
-- **Original Post Date:** 13/12/2014
+- **Original Post Date:** 13/12/2023
 - **Last Updated:** 10/06/2024 (10th of June 2024)
-- **Author:** Arr0way 
+- **Author:** Dhruv Ambaliya 
 - **Notes:** Checked syntax was current for latest version of Nmap + added additional content.
 
 
