@@ -1,7 +1,7 @@
 ---
 layout: blog_item
 title:  "Pen Testers Lab: Shellshock CVE-2014-6271 - Walkthrough"
-date:   2014-09-30 10:00:10
+date:   2024-03-30 10:00:10
 author: Dhruv Ambaliya
 description: 'Shellshock CVE-2014-6271 Pen Testers Lab - Walkthrough'
 categories: [walkthroughs]
@@ -15,10 +15,10 @@ tags:
       <tbody>
         <tr>
            <td>
-               <p><code>Coffee Difficulty Rating:</code></p>
+               <p><code>Difficulty Rating:</code></p>
            </td>
            <td>
-               <p><i class="fa fa-coffee"></i></p>
+               <p><i class="fa fa-coffee">Easy</i></p>
            </td>
         </tr>
       </tbody>
