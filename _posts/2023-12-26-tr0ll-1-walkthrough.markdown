@@ -1,7 +1,7 @@
 ---
 layout: blog_item
 title: "Tr0ll 1 Walkthrough"
-date: "2014-12-26 02:12:52 +0200"
+date: "2023-12-26 02:12:52 +0200"
 author: Dhruv Ambaliya
 categories: [walkthroughs]
 description: "Tr0ll: 1 walkthrough - step by step write up for Tr0ll: 1 a VulnHub Boot2Root challenge."
@@ -12,10 +12,10 @@ description: "Tr0ll: 1 walkthrough - step by step write up for Tr0ll: 1 a VulnHu
       <tbody>
         <tr>
            <td>
-               <p><code>Coffee Difficulty Rating:</code></p>
+               <p><code>Difficulty Rating:</code></p>
            </td>
            <td>
-               <p><i class="fa fa-coffee"></i><i class="fa fa-coffee"></i></p>
+               <p><i class="fa fa-coffee">Easy</i></p>
            </td>
         </tr>
       </tbody>
