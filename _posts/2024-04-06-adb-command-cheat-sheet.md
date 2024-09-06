@@ -2,7 +2,7 @@
 layout: blog_item
 title:  "ADB Commands Cheat Sheet - Flags, Switches & Examples Tutorial"
 date:   2024-06-06 05:37:10
-author: Arr0way
+author: Dhruv Ambaliya
 description: 'ADB commands cheat sheet - Learn the Android adb toolk with this Tutorial containing Flags, & adb Command Examples.'
 categories: [cheat-sheet]
 tags:
