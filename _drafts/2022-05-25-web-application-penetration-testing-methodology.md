@@ -1,8 +1,8 @@
 ---
 layout: blog_item
 title:  "Web Application Penetration Testing Methodology"
-date:   2016-05-25 11:29:10
-author: Arr0way
+date:   2022-05-25 11:29:10
+author: Dhruv Ambaliya
 description: 'A technical Web Application Penetration Testing Methodology'
 categories: [Web App Penetration Testing]
 tags:

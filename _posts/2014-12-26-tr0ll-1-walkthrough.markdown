@@ -2,7 +2,7 @@
 layout: blog_item
 title: "Tr0ll 1 Walkthrough"
 date: "2014-12-26 02:12:52 +0200"
-author: Arr0way
+author: Dhruv Ambaliya
 categories: [walkthroughs]
 description: "Tr0ll: 1 walkthrough - step by step write up for Tr0ll: 1 a VulnHub Boot2Root challenge."
 ---

@@ -2,7 +2,7 @@
 layout: blog_item
 title:  "Sokar - Walkthrough"
 date:   2015-02-23 14:00:10
-author: Arr0way
+author: Dhruv Ambaliya
 description: 'Sokar - Walkthrough Guide'
 categories: [walkthroughs]
 tags:

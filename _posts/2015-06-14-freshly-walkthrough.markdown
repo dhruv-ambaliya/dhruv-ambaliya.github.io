@@ -2,7 +2,7 @@
 layout: blog_item
 title: "Freshly Walkthrough"
 date: "2015-06-14"
-author: Arr0way
+author: Dhruv Ambaliya
 description: 'Freshly - Walkthrough Guide'
 categories: [walkthroughs]
 tags:

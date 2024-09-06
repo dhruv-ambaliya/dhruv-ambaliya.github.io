@@ -2,7 +2,7 @@
 layout: blog_item
 title:  "SkyTower - Walkthrough"
 date:   2015-07-20 15:00:60
-author: Arr0way
+author: Dhruv Ambaliya
 description: 'SkyTower 1, a VulnHub CTF Walkthrough Guide'
 categories: [walkthroughs]
 tags:

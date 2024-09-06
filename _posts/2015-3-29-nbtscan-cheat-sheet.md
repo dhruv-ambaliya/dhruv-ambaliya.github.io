@@ -2,7 +2,7 @@
 layout: blog_item
 title:  "nbtscan Cheat Sheet"
 date:   2015-03-29 14:37:10
-author: Arr0way
+author: Dhruv Ambaliya
 description: 'nbtscan install, examples and nbtscan commands cheatsheet'
 categories: [cheat-sheet]
 tags:

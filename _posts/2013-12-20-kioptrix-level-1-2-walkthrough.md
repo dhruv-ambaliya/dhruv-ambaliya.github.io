@@ -2,7 +2,7 @@
 layout: blog_item
 title:  "Kioptrix Level 1.2 Walkthrough"
 date:   2013-12-20 14:00:10
-author: Arr0way
+author: Dhruv Ambaliya
 description: 'Kioptrix Level 1.2 Walkthrough, CTF solution for Kioptrix Level 1.2.'
 categories: [walkthroughs]
 tags:

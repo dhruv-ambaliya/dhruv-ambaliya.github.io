@@ -2,7 +2,7 @@
 layout: blog_item
 title:  "enum4linux Cheat Sheet - Commands & Examples"
 date:   2015-03-29 00:58:10
-author: Arr0way
+author: Dhruv Ambaliya
 description: 'enum4linux description, examples, cheatsheet and practical examples'
 categories: [Cheat-Sheet]
 tags:
