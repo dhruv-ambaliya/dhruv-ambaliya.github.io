@@ -1,7 +1,7 @@
 ---
 layout: blog_item
 title:  "Pen Testing Tools Cheat Sheet"
-date:   2020-03-16 14:22:10
+date:   2024-03-16 14:22:10
 author: Dhruv Ambaliya
 description: 'Penetration testing tools cheat sheet, a high level overview / quick reference cheat sheet for penetration testing.'
 categories: [cheat-sheet]
