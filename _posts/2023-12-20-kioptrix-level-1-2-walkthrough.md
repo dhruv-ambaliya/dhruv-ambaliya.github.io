@@ -14,7 +14,7 @@ tags:
       <tbody>
         <tr>
            <td>
-               <p><code>Difficulty Rating: Easy</code></p>
+               <p><code>Difficulty Rating:</code> Easy</p>
            </td>
            <td>
                <p><i class="fa fa-coffee"></i></p>
