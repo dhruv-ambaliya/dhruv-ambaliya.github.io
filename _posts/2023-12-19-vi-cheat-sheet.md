@@ -1,8 +1,8 @@
 ---
 layout: blog_item
-title:  "Vim Cheat Sheet [2022 Update] + NEOVIM"
-date:   2015-11-1 09:39:10
-author: Arr0way
+title:  "Vim Cheat Sheet + NEOVIM"
+date:   2023-12-19 09:39:10
+author: Dhruv Ambaliya
 description: 'Vim cheat sheet, a collection of Vim commands and tips in a nicely presented cheat sheet for VIM / NEOVIM.'
 categories: [cheat-sheet]
 tags:
