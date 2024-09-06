@@ -13,31 +13,23 @@ NORMAL="\033[0;39m"
 # Quick Linux Local Enumeration Script 
 # v1.0
 
-cat << "EOF"
-                       .
-                        `:.
-                          `:.
-                  .:'     ,::
-                 .:'      ;:'
-                 ::      ;:'
-                  :    .:'
-                   `.  :.
-          _________________________
-         :                         :
-     ,---:      HighOn.Coffee      :
-    : ,'"`:                       :'
-    `.`.  `:                     :'
-      `.`-._:                   :
-        `-.__`.               ,' 
-    ,--------`"`-------------'--------.
-     `"--.__                   __.--"'
-            `""-------------""'
-
+cat << EOF
+  _____
+ /     \
+|  o  o |
+ \_____/
+  \   /
+   \ /
+    X
+    
+ GitHub
+ 
+ Explore · Discover · Create
 EOF
 
 sleep 1.4
 
-printf "URL: $GREEN http://highon.coffee $NORMAL \n"
+printf "URL: $GREEN http://hacksofdhruv.me $NORMAL \n"
 
 sleep 0.4
 
@@ -45,14 +37,14 @@ printf "Version: $YELLOW 1.0 $NORMAL \n"
 
 sleep 0.4
 
-printf "Twitter: $BLUE @HighOn_Coffee $NORMAL \n"
+printf "Twitter: $BLUE @HacksofDhruv.me $NORMAL \n"
 sleep 0.2
-printf "Author: $BLUE @Arr0way $NORMAL \n"
+printf "Author: $BLUE @dhruv-ambaliya- $NORMAL \n"
 
 sleep 0.4
 printf "Disclaimer: \n"
 printf "\n"
-printf "$RED HighOn.Coffee is not responsible for misuse or for any damage that you may cause! \n
+printf "$RED HacksofDhruv.me is not responsible for misuse or for any damage that you may cause! \n
  You agree that you use this software at your own risk. $NORMAL  \n"
 
 printf "\n"
@@ -439,7 +431,7 @@ printf "$BLUE"
 printf '%*s\n' "${COLUMNS:-$(tput cols)}" '' | tr ' ' '#'
 printf "$NORMAL"
 
-printf "\n More Linux enumeration commands can be found at: $BLUE https://highon.coffee/docs/linux-commands  \n"
+printf "\n More Linux enumeration commands can be found at: $BLUE https://hacksofdhruv.me/docs/linux-commands  \n"
 
 printf "\n $RED So long, and thanks for all the fish... \n $NORMAL"
 

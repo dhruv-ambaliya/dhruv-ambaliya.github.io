@@ -2,7 +2,7 @@
 layout: blog_item
 title:  "Nmap Cheat Sheet: Commands, Flags, Switches & Examples (2024)"
 date:   2024-06-09 10:37:10
-author: Arr0way
+author: Dhruv Ambaliya
 description: 'Nmap Cheat Sheet, learn Nmap commands, flags & real world exmaples allowing you to leverage the OG portscanner.'
 categories: [cheat-sheet]
 tags:

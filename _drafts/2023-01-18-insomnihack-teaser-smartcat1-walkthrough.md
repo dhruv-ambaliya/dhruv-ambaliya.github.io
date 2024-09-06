@@ -1,8 +1,8 @@
 ---
 layout: blog_item
 title:  "Kioptrix Level 1 Walkthrough"
-date:   2013-12-19 14:00:10
-author: Arr0way
+date:   2023-01-18 14:00:10
+author: Dhruv Ambaliya
 description: 'Kioptrix Level 1 Walkthrough, CTF solution for Kioptrix Level 1.'
 categories: [walkthroughs]
 tags:

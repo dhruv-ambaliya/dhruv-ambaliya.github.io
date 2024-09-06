@@ -2,7 +2,7 @@
 layout: blog_item
 title:  "Security Harden CentOS 7"
 date:   2015-03-25 00:52:10
-author: Arr0way
+author: Dhruv Ambaliya
 categories: [security-hardening] 
 ---
 

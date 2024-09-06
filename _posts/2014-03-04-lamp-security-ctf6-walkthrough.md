@@ -2,7 +2,7 @@
 layout: blog_item
 title:  "LAMP Security CTF6 - Walkthrough"
 date:   2014-03-04 19:40:60
-author: Arr0way
+author: Dhruv Ambaliya
 description: 'LAMP Security CTF 6 - Walkthrough Guide'
 categories: [walkthroughs]
 tags:

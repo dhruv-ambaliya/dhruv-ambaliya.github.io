@@ -10,4 +10,4 @@ Disallow: /
 User-agent: rogerbot
 Disallow: /
 
-Sitemap: https://highon.coffee/feed.xml
+Sitemap: https://hacksofdhruv.me/feed.xml

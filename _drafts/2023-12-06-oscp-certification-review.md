@@ -1,8 +1,8 @@
 ---
 layout: blog_item
 title:  "OSCP Certification Review"
-date:   2015-03-29 14:37:10
-author: Arr0way
+date:   2023-03-29 14:37:10
+author: Dhruv Ambaliya
 description: 'OSCP certification Review'
 categories: [urandom]
 tags:

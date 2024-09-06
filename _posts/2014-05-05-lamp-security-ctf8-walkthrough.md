@@ -2,7 +2,7 @@
 layout: blog_item
 title:  "LAMP Security CTF8 - Walkthrough"
 date:   2014-05-05 11:00:60
-author: Arr0way
+author: Dhruv Ambaliya
 description: 'VulnHub CTF8 - Walkthrough Guide'
 categories: [walkthroughs]
 tags:

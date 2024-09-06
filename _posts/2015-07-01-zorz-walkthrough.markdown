@@ -2,7 +2,7 @@
 layout: blog_item
 title: "Zorz Walkthrough"
 date: "2015-07-01"
-author: Arr0way
+author: Dhruv Ambaliya
 description: 'Zorz - Walkthrough Guide'
 categories: [walkthroughs]
 tags:

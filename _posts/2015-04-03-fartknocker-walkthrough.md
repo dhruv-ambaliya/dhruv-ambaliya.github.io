@@ -2,7 +2,7 @@
 layout: blog_item
 title:  "FartKnocker - Walkthrough"
 date:   2015-04-03 11:00:60
-author: Arr0way
+author: Dhruv Ambaliya
 description: 'LAMP Security CTF 8- Walkthrough Guide'
 categories: [walkthroughs]
 tags:

@@ -2,7 +2,7 @@
 layout: blog_item
 title:  "Kioptrix Level 2014 Walkthrough"
 date:   2014-04-15 14:00:10
-author: Arr0way
+author: Dhruv Ambaliya
 description: 'Kioptrix 2014 Walkthrough, CTF solution for Kioptrix Level 2014.'
 categories: [walkthroughs]
 tags:

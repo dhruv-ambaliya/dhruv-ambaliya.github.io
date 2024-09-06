@@ -1,16 +1,16 @@
 ---
 layout: docs
-title: About HighOn.Coffee
+title: About HacksofDhruv.me
 overview: true
 ---
 
 
 <p>A site about Penetration Testing & Security</p>
 
-<p>I randomly named this blog highon.coffee, as I like drinking coffee.</p>
+<p>I randomly named this blog hacksofdhruv.me, as I like to write about security stuff.</p>
 
-You can follow me on twitter <a href="https://twitter.com/Arr0way" rel="nofollow" target="_blank" title="Follow on Twitter"> @Arr0way</a> <= I made it easy for you :) 
-
+<!-- You can follow me on twitter <a href="https://twitter.com/dhruv" rel="nofollow" target="_blank" title="Follow on Twitter"> @dhruv</a> <= I made it easy for you :)  -->
+You can follow me on LinkedIn <a href="https://www.linkedin.com/in/dhruv-ambaliya-/" rel="nofollow" target="_blank" title="Follow on Twitter"> @dhruv-ambaliya</a> <= I made it easy for you :) 
 This site is a collection of penetration testing documentation, if you're interested in penetration testing you should take a look at our [pentesting tools](/blog/penetration-testing-tools-cheat-sheet/) cheat sheet which contains a number of useful commands for pen testers, mainly infra testing tools. 
 
 ## Helpful Hints

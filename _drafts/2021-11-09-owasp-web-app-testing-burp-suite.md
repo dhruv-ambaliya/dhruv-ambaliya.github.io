@@ -1,7 +1,7 @@
 ---
 layout: blog_item
 title:  "Web Application Testing OWASP - Burp Suite Injection Flaws"
-date:   2015-03-29 14:37:10
+date:   2022-03-29 14:37:10
 author: Dhruv Ambaliya
 description: 'OWASP Web Application Testing with Burp Suite, working through OWASPS WebGoat - part of the BWAP series.'
 categories: [Web Application Testing]
@@ -65,7 +65,7 @@ Content-Length: 0
 HTTP/1.1 200 OK
 Content-Type: text/html
 Content-Length: 31
-<html>Hacked by HighOn.Coffee</html>  
+<html>Hacked by HacksofDhruv</html>  
 {% endhighlight %}
 
 

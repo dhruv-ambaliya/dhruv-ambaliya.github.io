@@ -2,7 +2,7 @@
 layout: blog_item
 title:  "Systemd Cheat Sheet"
 date:   2015-06-29 11:35:10
-author: Arr0way
+author: Dhruv Ambaliya
 description: 'systemd, examples and systemd commands cheat sheet'
 categories: [cheat-sheet]
 tags:

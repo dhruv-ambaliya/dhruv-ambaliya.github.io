@@ -1,8 +1,8 @@
 ---
 layout: blog_item
 title:  "REST API Penetration Testing Cheat Sheet"
-date:   2016-05-31 11:37:10
-author: Arr0way
+date:   2022-05-31 11:37:10
+author: Dhruv Ambaliya
 description: 'A technical Web Application Penetration Testing Methodology, laid out as a cheat sheet'
 categories: [Web App Penetration Testing]
 tags:
