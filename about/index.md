@@ -5,9 +5,9 @@ overview: true
 ---
 
 
-<p>A site about Penetration Testing & Security</p>
+<p>A site about Security Research & Penetration Testing</p>
 
-<p>I randomly named this blog hacksofdhruv.me, as I like to write about security stuff.</p>
+<p>I randomly named this blog hacksofdhruv.me, as I like to write about security related stuff.</p>
 
 <!-- You can follow me on twitter <a href="https://twitter.com/dhruv" rel="nofollow" target="_blank" title="Follow on Twitter"> @dhruv</a> <= I made it easy for you :)  -->
 You can follow me on LinkedIn <a href="https://www.linkedin.com/in/dhruv-ambaliya-/" rel="nofollow" target="_blank" title="Follow on Twitter"> @dhruv-ambaliya</a> <= I made it easy for you :) 
@@ -36,7 +36,7 @@ information. Here’s what to look out for.
 ![Picard Dance](/img/picard-engage.jpg)
 
 <div class="note warning">
-  <h5>Warning: Random Star Trek memes and gifs will be used throughout the site!</h5>
+  <h5>Warning: Random memes and gifs will be used throughout the site!</h5>
   <p>Resistance is futile.</p>
 </div>
 
