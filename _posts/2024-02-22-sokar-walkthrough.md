@@ -1,7 +1,7 @@
 ---
 layout: blog_item
 title:  "Sokar - Walkthrough"
-date:   2015-02-23 14:00:10
+date:   2024-02-23 14:00:10
 author: Dhruv Ambaliya
 description: 'Sokar - Walkthrough Guide'
 categories: [walkthroughs]
@@ -15,10 +15,10 @@ tags:
       <tbody>
         <tr>
            <td>
-               <p><code>Coffee Difficulty Rating:</code></p>
+               <p><code>Difficulty Rating:</code></p>
            </td>
            <td>
-               <p><i class="fa fa-coffee"></i><i class="fa fa-coffee"></i><i class="fa fa-coffee"></i></p>
+               <p><i class="fa fa-coffee">Easy</i></p>
            </td>
         </tr>
       </tbody>
