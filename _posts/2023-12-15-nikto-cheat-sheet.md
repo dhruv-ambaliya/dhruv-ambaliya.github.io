@@ -1,8 +1,8 @@
 ---
 layout: blog_item
 title:  "Nikto Cheat Sheet - Commands & Examples"
-date:   2023-03-15 14:37:10
-author: Arr0way
+date:   2023-12-15 14:37:10
+author: Dhruv Ambaliya
 description: 'Nikto cheat sheet - Usage, Flags and Nikto Example Commands'
 categories: [cheat-sheet]
 tags:
@@ -361,5 +361,5 @@ If you found this Nikto cheat sheet useful, please share it below.
 ## Document Changelog 
 
 - **Last Updated:** 12/02/2024 (12th of February 2024)
-- **Author:** Arr0way 
+- **Author:** Dhruv Ambaliya 
 - **Notes:** Checked syntax was current for latest version of Nikto. 
