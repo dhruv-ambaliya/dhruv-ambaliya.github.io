@@ -1,8 +1,8 @@
 ---
 layout: blog_item
 title: "DNS Tunneling dnscat2 Cheat Sheet"
-date:   2021-06-04 10:29:10
-author: Arr0way
+date:   2024-06-24 10:29:10
+author: Dhruv Ambaliya
 description: 'Learn what DNS tunneling is, when to use it on a pen test and how to tunnel over DNS using dnscat2.'
 categories: [cheat-sheet]
 tags:
