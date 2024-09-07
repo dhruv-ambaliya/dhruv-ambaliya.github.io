@@ -1,8 +1,8 @@
 ---
 layout: blog_item
 title: "FristiLeaks 1.3 Walkthrough"
-date: "2015-12-15"
-author: Arr0way
+date: "2024-02-15"
+author: Dhruv Ambaliya
 description: 'FristiLeaks - Walkthrough Guide'
 categories: [walkthroughs]
 tags:
@@ -14,10 +14,10 @@ tags:
       <tbody>
         <tr>
            <td>
-               <p><code>Coffee Difficulty Rating:</code></p>
+               <p><code>Difficulty Rating:</code></p>
            </td>
            <td>
-               <p><i class="fa fa-coffee"></i><i class="fa fa-coffee"></i></p>
+               <p><i class="fa fa-coffee">Intermediate</i></p>
            </td>
         </tr>
       </tbody>
