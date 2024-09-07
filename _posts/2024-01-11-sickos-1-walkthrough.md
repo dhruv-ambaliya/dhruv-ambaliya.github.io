@@ -1,8 +1,8 @@
 ---
 layout: blog_item
 title:  "SickOS 1.1 - Walkthrough"
-date:   2015-12-11 11:00:10
-author: Arr0way
+date:   2024-01-11 11:00:10
+author: Dhruv Ambaliya
 description: 'SickOS 1.1 - Walkthrough / Writeup'
 categories: [walkthroughs]
 tags:
@@ -15,10 +15,10 @@ tags:
       <tbody>
         <tr>
            <td>
-               <p><code>Coffee Difficulty Rating:</code></p>
+               <p><code>Difficulty Rating:</code></p>
            </td>
            <td>
-               <p><i class="fa fa-coffee"></i><i class="fa fa-coffee"></i></p>
+               <p><i class="fa fa-coffee">Intermediate</i></p>
            </td>
         </tr>
       </tbody>
