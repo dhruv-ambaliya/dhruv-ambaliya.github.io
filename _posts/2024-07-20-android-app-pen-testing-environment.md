@@ -106,7 +106,7 @@ Installed Android application location:
 cd /data/data
 {% endhighlight %}
 
-For a more in depth guide on how to use ADB see our [ADB commands](/blog/adb-commands-cheat-sheet/) cheat sheet here.
+For a more in depth guide on how to use ADB see our [ADB commands](/blog/adb-command-cheat-sheet/) cheat sheet here.
 
 ### 8. Open GApps
 
