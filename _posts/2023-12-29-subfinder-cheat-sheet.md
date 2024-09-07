@@ -1,8 +1,8 @@
 ---
 layout: blog_item
 title:  "Subfinder Cheat Sheet"
-date:   2023-03-09 14:37:10
-author: Arr0way
+date:   2023-12-29 14:37:10
+author: Dhruv Ambaliya
 description: 'Subfinder install, examples and Subfinder commands cheatsheet'
 categories: [cheat-sheet]
 tags:
