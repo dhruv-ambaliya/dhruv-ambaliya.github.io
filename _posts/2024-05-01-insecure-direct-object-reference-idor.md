@@ -1,7 +1,7 @@
 ---
 layout: blog_item
 title: "Insecure Direct Object Reference (IDOR): Definition, Examples & How to Find"
-date:   2024-05-01 01:29:10
+date:   2024-05-01 11:29:10
 author: Dhruv Amabaliya
 description: 'What is a Insecure Direct Object Reference (IDOR) vulnerability, examples and how to find IDOR.'
 categories: [Web App Security]
