@@ -1,8 +1,8 @@
 ---
 layout: blog_item
 title:  "Naabu Cheat Sheet: Commands & Examples"
-date:   2023-03-08 10:37:10
-author: Arr0way
+date:   2023-12-23 10:37:10
+author: Dhruv Ambaliya
 description: 'Naabu Cheat Sheet - A port scanner writte in Golang by Project Discovery. What is it, and how to use it with command examples.'
 categories: [cheat-sheet]
 tags:
@@ -290,5 +290,5 @@ If you found this Naabu cheat sheet useful, please share it below.
 ## Document Changelog 
 
 - **Last Updated:** 12/02/2024 (12th of February 2024)
-- **Author:** Arr0way 
+- **Author:** Dhruv Ambaliya 
 - **Notes:** Checked syntax was current for latest version of Naabu. 
