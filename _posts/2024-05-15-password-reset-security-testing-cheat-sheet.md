@@ -1,8 +1,8 @@
 ---
 layout: blog_item
 title: "Password Reset Testing Cheat Sheet"
-date:   2021-06-01 03:29:10
-author: Arr0way
+date:   2024-05-15 03:29:10
+author: Dhruv Ambaliya
 description: 'Password reset function assessment cheat sheet, several techniques for assessing password reset functions on web apps and API.'
 categories: [cheat-sheet]
 tags:
