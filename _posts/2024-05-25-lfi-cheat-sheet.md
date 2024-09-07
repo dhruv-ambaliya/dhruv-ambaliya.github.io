@@ -1,8 +1,8 @@
 ---
 layout: blog_item
 title: "LFI Cheat Sheet"
-date:   2016-04-24 11:29:10
-author: Arr0way
+date:   2024-05-24 11:29:10
+author: Dhruv Ambaliya
 description: 'LFI Explained and the techniques to leverage a shell from a local file inclusion vulnerability. How to get a shell from LFI'
 categories: [cheat-sheet]
 tags:
