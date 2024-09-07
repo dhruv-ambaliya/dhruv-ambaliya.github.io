@@ -452,5 +452,5 @@ We hope you found this Subfinder cheat sheet useful, and it helps you get starte
 ---
 
 - **Last Updated:** 12/02/2024 (12th of February 2024)
-- **Author:** Arr0way 
+- **Author:** Dhruv Ambaliya 
 - **Notes:** Checked syntax was current for latest version of Subfinder + added Subfinder API sources table. 
