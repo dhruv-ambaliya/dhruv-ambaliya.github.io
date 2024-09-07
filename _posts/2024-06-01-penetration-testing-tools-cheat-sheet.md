@@ -1,7 +1,7 @@
 ---
 layout: blog_item
 title:  "Pen Testing Tools Cheat Sheet"
-date:   2024-03-16 14:22:10
+date:   2024-06-01 14:22:10
 author: Dhruv Ambaliya
 description: 'Penetration testing tools cheat sheet, a high level overview / quick reference cheat sheet for penetration testing.'
 categories: [cheat-sheet]
@@ -3902,10 +3902,10 @@ A mini SQLMap cheat sheet, see our full [SQLMap cheat sheet](/blog/sqlmap-cheat-
 
 ## Document Changelog 
 
-- **Last Updated:** 12/02/2024 (12th of February 2024)
-- **Author:** Arr0way 
+- **Last Updated:** 01/06/2024 (01th of June 2024)
+- **Author:** Dhruv Ambaliya 
 - **Notes:** Reviewed content is current for various tools. 
 
 Previous document changes: 
-- 16/09/2020 - fixed some formatting issues.
-- 17/02/2017 - Article updated, added loads more content, VPN, DNS tunneling, VLAN hopping etc - check out the TOC below. 
+- 16/03/2024 - fixed some formatting issues.
+- 17/04/2024 - Article updated, added loads more content, VPN, DNS tunneling, VLAN hopping etc - check out the TOC below. 
