@@ -1,8 +1,8 @@
 ---
 layout: blog_item
 title: "SSH Lateral Movement Cheat Sheet"
-date:   2021-06-03 15:29:10
-author: Arr0way
+date:   2024-06-03 15:29:10
+author: Dhruv Ambaliya
 description: 'SSH lateral movement cheat sheet, a collection of lateral movement techniques to move deeper through the network.'
 categories: [cheat-sheet]
 tags:
@@ -188,6 +188,6 @@ ControlPersist yes
 8. To hijack the existing connection ssh to user@hostname / IP listed in step 7 
 
 
-If you know of more techniques let me know on twitter @Arr0way 
+If you know of more techniques let me know on LinkedIn 
 
 Enjoy. 
