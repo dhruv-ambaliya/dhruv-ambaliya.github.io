@@ -8,6 +8,7 @@ categories: [cheat-sheet]
 tags:
 - 'Authentication'
 - 'Web Application Penetration Testing'
+- 'Pen-Testing'
 ---
 
 * list element with functor item

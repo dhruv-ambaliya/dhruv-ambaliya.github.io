@@ -2,8 +2,7 @@
 layout: docs
 title: How Much Does a Penetration Test Cost?
 overview: true
-tags:
-- 'pen-testing'
+tag: pentesting
 ---
 
 

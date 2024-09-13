@@ -6,6 +6,7 @@ author: Dhruv Ambaliya
 description: 'SQLMap cheat sheet - Learn SQLMap with this Tutorial containing Flags, & SQLMap Command Examples.'
 categories: [cheat-sheet]
 tags:
+- 'Pen-Testing'
 - Web
 - Tools
 ---

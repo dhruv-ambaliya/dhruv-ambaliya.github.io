@@ -6,7 +6,7 @@ author: Dhruv Amabaliya
 description: 'What is a Insecure Direct Object Reference (IDOR) vulnerability, examples and how to find IDOR.'
 categories: [Web App Security]
 tags:
-
+- 'Pen-Testing'
 - 'Web App Security'
 ---
 

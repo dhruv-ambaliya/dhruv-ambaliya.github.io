@@ -1,6 +1,6 @@
 ---
 layout: default
-title: What is Penetration Testing (Pen Testing)?  
+title: What is Reverse Engineering ?  
 overview: true
 description: "Learn about what penetration testing is, the benefits, testing types, and the phases in our penetration testing overview for 2024."
 
@@ -9,7 +9,7 @@ description: "Learn about what penetration testing is, the benefits, testing typ
 <section class="intro">
   <div class="grid">
     <div class="unit whole center-on-mobiles">
-      <h1 class="first">What is Penetration Testing?</h1>
+      <h1 class="first">What is Reverse Engineering?</h1>
     </div>
   </div>
 </section>
@@ -21,9 +21,12 @@ description: "Learn about what penetration testing is, the benefits, testing typ
         <div class="unit whole center-on-mobiles">
           <img src="../img/what-is-penetration-testing.png" width="150" height="128" alt="What is pentesting defintion image">
           <div class="pane-content">
-            <h2 class="center-on-mobiles"><strong>What is</strong> Penetration Testing</h2>
-	    <p>A professional authorized security test performed against a system or application to assess the security posture of the assessed environment. Identified security issues are “typically” exploited to verify that they are vulnerable and not a false positive. When testing is complete the client receives a report outlining the discovered vulnerabilities, their severity, and with remediation advice to assist with fixing the discovered vulnerabilities. Once the issues have been fixed by the client a retest of discovered issues is often performed to ensure that the clients fix work was successful.</p>
-	</p>
+            <h2 class="center-on-mobiles"><strong>What is</strong> Reverse Engineering</h2>
+	    <p> Reverse engineering is the process of analyzing a system to understand its components, design, and functionality. In the context of security research, it involves examining software or hardware to identify potential vulnerabilities that could be exploited by malicious actors. 
+            </p>
+
+        <p>By breaking down a system into its constituent parts and analyzing their interactions, security researchers can gain valuable insights into its security posture, identify weaknesses, and develop strategies to mitigate risks.
+        </p>
           </div>
         </div>
         <div class="clear"></div>
@@ -73,64 +76,70 @@ description: "Learn about what penetration testing is, the benefits, testing typ
     <li>Benefits of Penetration Testing</li>
 </ul>
 
-     <h2>What are the Benefits of Penetration Testing </h2>
-     <p>Assess systems, networks, applications or devices to find vulnerabilities that could have been missed during engineering or development. Pen testing can help an organization with the following: 
-	<ol>
- 	 <li>Gain an understanding of the current security posture of the assessed environment.</li><br>
-	  <li>Identify vulnerabilities that may not be identified using automated testing.</li><br>
-	  <li>Support compliance and data standards such as HIPPA, GDPR, DPA, PCI DSS.</li><br>
- 	 <li>Test existing security controls against an attack simulation; to see if they are sufficient.</li><br>
-	</ol>
+     <h2>What are the Benefits of Reverse Engineering </h2>
+      <p>Reverse engineering can provide significant benefits in various fields, including security research, software development, and hardware analysis. Here are some of the key advantages:</p>
+      
+      <ol>
+        <li><strong>Vulnerability Identification:</strong> Uncover hidden weaknesses in software or hardware that could be exploited by attackers.</li><br>
+        <li><strong>Malware Analysis:</strong> Understand the behavior and functionality of malicious code to prevent future attacks.</li><br>
+        <li><strong>Exploit Development:</strong> Create tools to exploit discovered vulnerabilities and assess their impact.</li><br>
+        <li><strong>Security Tool Development:</strong> Build tools to detect and mitigate vulnerabilities.</li><br>
+        <li><strong>Research and Development:</strong> Advance the understanding of software and hardware security.</li><br>
+        <li><strong>Digital Forensics:</strong> Investigate security incidents and recover evidence.</li><br>
+      </ol>
+      
 	</div>
 </section>
 
 <section class="features">
   <div class="grid">
-   <h2>Penetration Testing Types:</h2>
+    <h2>Reverse Engineering Types:</h2>
     <div class="unit one-third">
-      <h3>Web Application Penetration Testing</h3>
+      <h3>Software Reverse Engineering</h3>
       <p>
-      A deep dive manual assessment against a <em>web application</em>, which is typically conducted grey box. Learn more below.
+        Analyzing compiled code to understand its functionality and identify vulnerabilities.
       </p>
-      <p><a href="/penetration-testing/web-app/">Web App Penetration Testing</a>&rarr;</p>
+      <p>Software Reverse Engineering&rarr;</p>
     </div>
     <div class="unit one-third">
-      <h3>Mobile App Penetration Testing</h3>
+      <h3>Hardware Reverse Engineering</h3>
       <p>
-      A deep dive manual assessment against a mobile application, which is typically conducted grey box. Source code for the mobile app is often provided, if not the application is normally decompiled for reverse engineering. 
+        Examining the physical components of a device to understand its design and functionality.
       </p>
-      <p><a href="/penetration-testing/mobile-app/">Mobile App Penetration Testing</a>&rarr;</p>
+      <p>Hardware Reverse Engineering&rarr;</p>
     </div>
     <div class="unit one-third">
-      <h3>API Penetration Test</h3>
+      <h3>Firmware Reverse Engineering</h3>
       <p>
-        A manual assessment against an API, a lot of the methodologies, vectors and vulnerabilities used in we app testing work against scoped API’s. 
+        Analyzing the embedded software that controls hardware devices, such as routers, IoT devices, and embedded systems.
       </p>
-      <p>API Penetration Testing&rarr;</p>
+      <p>Firmware Reverse Engineering&rarr;</p>
     </div>
     <div class="clear"></div>
-  </div>
+    </div>
     <div class="grid">
     <div class="unit one-third">
-      <h3>What is Cloud Penetration Testing</h3>
+      <h3>Cryptographic Algorithm Reverse Engineering</h3>
       <p>
-      Normally the same as Infrastructure or web, but conducted via a bastion host. 
+        Analyzing cryptographic algorithms to understand their weaknesses and vulnerabilities.
       </p>
-      <p>Cloud Penetration Testing&rarr;</p>
+      <p>Cryptographic Algorithm Reverse Engineering&rarr;</p>
     </div>
     <div class="unit one-third">
-      <h3>Network Infrastructure Penetration Testing</h3>
+      <h3>Network & Protocol Reverse Engineering</h3>
       <p>
-      A manual test against an organizations network infrastructure. (And no, you cannot just include web applications in this scope and expect a free web application pen test).
+        Analyzing Network traffic to understand protocols, communication patterns and identify vulnerabilities.
       </p>
-      <p>Network Penetration Testing&rarr;</p>
+      <p>Network & Protocol Reverse Engineering&rarr;</p>
     </div>
     <div class="unit one-third">
-      <h3>What is IoT Penetration Testing</h3>
+      <h3>Malware Reverse Engineering</h3>
       <p>
-        A security assessment against a device, typically involving obtaining the firmware and decompiling for reverse engineering. 
+        Analyzing malicious software to understand its functionality, identify its target, and develop countermeasures.
       </p>
-      <p>IoT Penetration Testing&rarr;</p>
+      <p>Malware Reverse Engineering&rarr;</p>
+    </div>
+    </div>
     </div>
     <div class="clear"></div>
   </div>
@@ -139,25 +148,25 @@ description: "Learn about what penetration testing is, the benefits, testing typ
 
 <section class="features">
 	<div class="grid">
-     <h2>Internal vs External Penetration Testing</h2>
-	<p>External Penetration Testing: The target scope is assessed from the perspective of an attacker positioned externally, e.g., attacking from the internet with no other information provided by the client organization. </p>
-	<p>Internal Penetration Testing: The target scope is assessed from the perspective of an attacker who gained a foothold within the network, or for example a rogue employee. </p>
+    <h2>Key Concepts in Reverse Engineering</h2>
 
-<p>In a nutshell: External testing is conducted remotely to simulate a remote attacker, internal testing is typically conducted in person or via remote access (VPN, deployed appliance) to simulate an in-person attacker or rogue employee.</p> 
- <h2>What is White, Grey & Black box Security Testing?</h2>
-		<p>The following testing types, often called “testing basis” covers the information provided by the organization to the penetration tester, ultimately defining how much accesses is given to the ethical hacker:</p>
-		<ul>
-    <li>
-        <strong>What is Black box pen testing:</strong> <a href="/penetration-testing/black-box/">Black box penetration testing</a> is performed with no prior knowledge of the target network, system or application. E.g., a client gives you an IP address range and provides no other information regarding the scope. A Black box penetration test is often also referred to as single-blind testing or closed-box.
-    </li>
-    <li>
-        <strong>What is White box pen testing:</strong> <a href="/penetration-testing/white-box/">White box testing</a> is performed with prior knowledge of the target and potentially client-side access to the network, system or application. E.g., a mobile app penetration test with a client who has provided the source code for their application. A White box penetration test is often also referred to as open-box testing, or transparent-box.
-    </li>
-    <li>
-        <strong>What is Grey box pen testing:</strong> <a href="/penetration-testing/grey-box/">Grey box testing</a> is a mixture of black and white box testing, some information is provided but only to assist with the penetration test. E.g., a web application penetration is typically performed grey box as the client provides user accounts for the pen test.
-    </li>
-</ul>
-<p><b>In a nutshell:</b> Black box pen testing provides little to no details of the target; white box provides target information and grey box testing is a mixture that provides the bear minimum to get the penetration test done. </p>
+    <ul>
+    <li>Disassembly: Converting machine code into assembly language.</li>
+    <li>Decompilation: Converting compiled code back into a higher-level programming language.</li>
+    <li>Static Analysis: Analyzing code without executing it.</li>
+    <li>Dynamic Analysis:** Analyzing code while it's running.</li>
+    <li>Hexadecimal:** A base-16 numbering system used to represent binary data.</li>
+    <li>Memory Dump:** A snapshot of the contents of a computer's memory at a specific point in time.</li>
+    <li>Registers:** Special-purpose storage locations within a processor that hold data used in calculations and program execution.</li>
+    <li>Stack:** A data structure used to store function calls, return addresses, and local variables.</li>
+    <li>Heap:** A region of memory used for dynamic memory allocation.</li>
+    <li>Function:** A block of code that performs a specific task.</li>
+    <li>Control Flow Graph (CFG):** A graphical representation of the flow of control within a program.</li>
+    <li>Call Graph:** A graphical representation of the relationships between functions in a program.</li>
+    <li>Data Flow Analysis:** Analyzing how data flows through a program.</li>
+    <li>Symbolic Execution:** A technique for analyzing the behavior of a program by representing variables with symbols.</li>
+    <li>Fuzzing:** A technique for testing software by feeding it with unexpected or invalid input.</li>
+    </ul>
 	</div>
 </section>
 
@@ -374,7 +383,7 @@ description: "Learn about what penetration testing is, the benefits, testing typ
     </tr>
   </thead>
       <tbody>
-        {% for post in site.tags.Pen-Testing %}
+        {% for post in site.tags.pen-testing %}
         <tr>
            <td>
              <pc><p><code>{{ post.date | date_to_string }}</code></p></pc>

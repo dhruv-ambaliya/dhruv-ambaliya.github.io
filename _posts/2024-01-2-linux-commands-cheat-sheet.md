@@ -6,7 +6,7 @@ author: Dhruv Ambaliya
 description: 'Linux Command Cheat Sheet and examples for penetration testing.'
 categories: [cheat-sheet]
 tags:
-- 'Penetration Testing'
+- 'Pen-Testing'
 - 'linux-enum'
 - 'Enumeration'
 - 'linux-commands'

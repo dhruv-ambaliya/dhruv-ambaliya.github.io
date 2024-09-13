@@ -6,7 +6,7 @@ author: Dhruv Ambaliya
 description: 'SSH lateral movement cheat sheet, a collection of lateral movement techniques to move deeper through the network.'
 categories: [cheat-sheet]
 tags:
-
+- 'Pen-Testing'
 - 'Linux Lateral Movement'
 ---
 

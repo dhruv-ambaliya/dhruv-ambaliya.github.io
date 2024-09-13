@@ -10,8 +10,7 @@ tags:
 - SMB
 - Linux
 - Tools
-- 'Penetration Testing'
-
+- 'Pen-Testing'
 ---
 
 ## Introduction 

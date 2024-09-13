@@ -6,6 +6,7 @@ author: Dhruv Ambaliya
 description: "SSH / Meterpreter Pivoting techniques for use during penetration testing, allowing an attacker to route traffic through a compromised host in order to gain access to another subnet."
 categories: [techniques]
 tags:
+- 'Pen-Testing'
 - Metasploit
 - Meterpreter
 ---

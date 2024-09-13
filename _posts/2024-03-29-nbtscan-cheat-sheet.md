@@ -10,6 +10,7 @@ tags:
 - SMB
 - smb-enum
 - Tools
+- 'Pen-Testing'
 ---
 
 **[nbtscan](http://www.unixwiz.net/tools/nbtscan.html)** is a command line tool that finds exposed NETBIOS nameservers, it's a good first step for finding open shares.

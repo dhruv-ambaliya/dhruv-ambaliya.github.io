@@ -6,7 +6,7 @@ author: Dhruv Ambaliya
 description: 'A step-by-step guide for setting up and configuring an Android Pen Testing Environment using Burp Suite & GenyMotion.'
 categories: [cheat-sheet]
 tags:
-
+- 'Pen-Testing'
 - 'Mobile App Penetration Testing'
 ---
 

@@ -6,8 +6,9 @@ author: Dhruv Ambaliya
 description: 'ADB commands cheat sheet - Learn the Android adb toolk with this Tutorial containing Flags, & adb Command Examples.'
 categories: [cheat-sheet]
 tags:
-- Web
+- Mobile
 - Tools
+- 'Pen-Testing'
 ---
 
 ## What is adb? 

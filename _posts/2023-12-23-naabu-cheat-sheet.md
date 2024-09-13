@@ -6,7 +6,7 @@ author: Dhruv Ambaliya
 description: 'Naabu Cheat Sheet - A port scanner writte in Golang by Project Discovery. What is it, and how to use it with command examples.'
 categories: [cheat-sheet]
 tags:
-- 'Penetration Testing'
+- 'Pen-Testing'
 - 'Projct Discovery'
 - Tools
 ---

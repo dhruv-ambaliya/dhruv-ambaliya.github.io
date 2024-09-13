@@ -9,6 +9,7 @@ tags:
 - Katana
 - Tools
 - 'Project Discovery'
+- 'Pen-Testing'
 ---
 
 ![Katana Logo](/img/katana-logo.png)

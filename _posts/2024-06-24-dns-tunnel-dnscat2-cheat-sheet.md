@@ -6,7 +6,7 @@ author: Dhruv Ambaliya
 description: 'Learn what DNS tunneling is, when to use it on a pen test and how to tunnel over DNS using dnscat2.'
 categories: [cheat-sheet]
 tags:
-
+- 'Pen-Testing'
 - 'Infrastructure'
 ---
 
