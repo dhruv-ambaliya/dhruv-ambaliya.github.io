@@ -334,7 +334,7 @@ Nmap allows hostnames, IP addresses, subnets.
 Example:
 
 {% highlight bash %}
-blah.highon.coffee, nmap.org/24, 192.168.0.1; 10.0.0-255.1-254
+blah.hacksofdhruv.me, nmap.org/24, 192.168.0.1; 10.0.0-255.1-254
 {% endhighlight %}
 
 <div class="mobile-side-scroller">

