@@ -8,7 +8,7 @@ categories: [cheat-sheet]
 tags:
 - 'Pen-Testing'
 - 'Enumeration'
-- host-enum
+- 'host-enum'
 ---
 
 The following Nmap cheat sheet aims to explain what Nmap is, what it does, and how to use it by providing Nmap command examples in a cheat sheet style documentation format.

@@ -44,7 +44,7 @@ description: "Learn about what penetration testing is, the benefits, testing typ
         <!-- <a href="https://twitter.com/dhruv">Dhruv Ambaliya</a> -->
         <a href="https://www.linkedin.com/in/dhruv-ambaliya-/">Dhruv Ambaliya</a>
       </em></p>
-	    <p>Article Last Updated: 6th Feb 2024</p>
+	    <p>Article Last Updated: 16th Aug 2024</p>
     </div>
     <div class="unit golden-large code">
       <p class="title">whoami</p>
@@ -55,7 +55,7 @@ description: "Learn about what penetration testing is, the benefits, testing typ
           <span class="command">whomai</span>
         </p>
         <p class="line">
-          <span class="output"># => Computer Engineering graduate with a passion for information security, particularly in Security Research and penetration testing. Seeking a challenging role to contribute to robust security solutions</span>
+          <span class="output"># => Computer Engineering graduate with a passion for information security, particularly in Security Research and penetration testing.</span>
 		
         </p>
       </div>
@@ -69,11 +69,11 @@ description: "Learn about what penetration testing is, the benefits, testing typ
 	<div class="grid">
 	<p><b>You Will Learn:</b></p>
 		<ul>
-    <li>What is Penetration Testing</li>
-    <li>The Different Penetration Testing Types</li>
-    <li>Understand the differences between White, Grey and Black box Testing</li>
-    <li>Penetration Testing Phases</li>
-    <li>Benefits of Penetration Testing</li>
+    <li>What is Reverse Engineering</li>
+    <li>The Different Reverse Engineering Types</li>
+    <li>Understand the key concepts in Reverse Engineering</li>
+    <li>Reverse Engineering Phases</li>
+    <li>Benefits of Reverse Engineering</li>
 </ul>
 
      <h2>What are the Benefits of Reverse Engineering </h2>
@@ -93,27 +93,27 @@ description: "Learn about what penetration testing is, the benefits, testing typ
 
 <section class="features">
   <div class="grid">
-    <h2>Reverse Engineering Types:</h2>
+    <h2>Reverse Engineering Types:</h2><br>
     <div class="unit one-third">
       <h3>Software Reverse Engineering</h3>
       <p>
         Analyzing compiled code to understand its functionality and identify vulnerabilities.
       </p>
-      <p>Software Reverse Engineering&rarr;</p>
+      <!-- <p>Software Reverse Engineering&rarr;</p> -->
     </div>
     <div class="unit one-third">
       <h3>Hardware Reverse Engineering</h3>
       <p>
         Examining the physical components of a device to understand its design and functionality.
       </p>
-      <p>Hardware Reverse Engineering&rarr;</p>
+      <!-- <p>Hardware Reverse Engineering&rarr;</p> -->
     </div>
     <div class="unit one-third">
       <h3>Firmware Reverse Engineering</h3>
       <p>
         Analyzing the embedded software that controls hardware devices, such as routers, IoT devices, and embedded systems.
       </p>
-      <p>Firmware Reverse Engineering&rarr;</p>
+      <!-- <p>Firmware Reverse Engineering&rarr;</p> -->
     </div>
     <div class="clear"></div>
     </div>
@@ -123,21 +123,21 @@ description: "Learn about what penetration testing is, the benefits, testing typ
       <p>
         Analyzing cryptographic algorithms to understand their weaknesses and vulnerabilities.
       </p>
-      <p>Cryptographic Algorithm Reverse Engineering&rarr;</p>
+      <!-- <p>Cryptographic Algorithm Reverse Engineering&rarr;</p> -->
     </div>
     <div class="unit one-third">
       <h3>Network & Protocol Reverse Engineering</h3>
       <p>
         Analyzing Network traffic to understand protocols, communication patterns and identify vulnerabilities.
       </p>
-      <p>Network & Protocol Reverse Engineering&rarr;</p>
+      <!-- <p>Network & Protocol Reverse Engineering&rarr;</p> -->
     </div>
     <div class="unit one-third">
       <h3>Malware Reverse Engineering</h3>
       <p>
         Analyzing malicious software to understand its functionality, identify its target, and develop countermeasures.
       </p>
-      <p>Malware Reverse Engineering&rarr;</p>
+      <!-- <p>Malware Reverse Engineering&rarr;</p> -->
     </div>
     </div>
     </div>
@@ -150,38 +150,28 @@ description: "Learn about what penetration testing is, the benefits, testing typ
 	<div class="grid">
     <h2>Key Concepts in Reverse Engineering</h2>
 
-    <ul>
-    <li>Disassembly: Converting machine code into assembly language.</li>
-    <li>Decompilation: Converting compiled code back into a higher-level programming language.</li>
-    <li>Static Analysis: Analyzing code without executing it.</li>
-    <li>Dynamic Analysis:** Analyzing code while it's running.</li>
-    <li>Hexadecimal:** A base-16 numbering system used to represent binary data.</li>
-    <li>Memory Dump:** A snapshot of the contents of a computer's memory at a specific point in time.</li>
-    <li>Registers:** Special-purpose storage locations within a processor that hold data used in calculations and program execution.</li>
-    <li>Stack:** A data structure used to store function calls, return addresses, and local variables.</li>
-    <li>Heap:** A region of memory used for dynamic memory allocation.</li>
-    <li>Function:** A block of code that performs a specific task.</li>
-    <li>Control Flow Graph (CFG):** A graphical representation of the flow of control within a program.</li>
-    <li>Call Graph:** A graphical representation of the relationships between functions in a program.</li>
-    <li>Data Flow Analysis:** Analyzing how data flows through a program.</li>
-    <li>Symbolic Execution:** A technique for analyzing the behavior of a program by representing variables with symbols.</li>
-    <li>Fuzzing:** A technique for testing software by feeding it with unexpected or invalid input.</li>
-    </ul>
+    <ol>
+    <li>Disassembly: The process of breaking down machine code into human-readable assembly language. This is a crucial step in reverse engineering, as assembly language provides a lower-level view of the program's instructions.</li><br>
+    <li>Decompilation: The process of converting assembly language or machine code back into a higher-level programming language. While decompilation can be challenging due to the loss of information during compilation, it can provide valuable insights into the program's structure and logic.</li><br>
+    <li>Hex Dump: A representation of binary data in hexadecimal format. Hex dumps are often used to examine the raw data of files or memory regions.</li><br>
+    <li>Debuggers: Debugging tools test and debug software programs. In reverse engineering, debuggers are crucial for stepping through code, setting breakpoints, and observing program behavior to understand its functionality or identify and exploit vulnerabilities.</li><br>
+    <li>Unpackers: Unpackers decompress or decrypt packed files, restoring them to a state more easily analyzed with decompilers or disassemblers. This proves especially useful in malware analysis, where unpacking is often essential to understanding the true nature of an obfuscated or packed malware binary.</li><br>
+    </ol>
 	</div>
 </section>
 
 
 <section class="features">
 	<div class="grid">
-     <h2>Penetration Testing Phases: Step by Step</h2>
+     <h2>Reverse Engineering Phases: Step by Step</h2>
 	<ol>
-	  <li>Scoping: Define the scope, goals, and objectives of the test. Identify the systems and networks to be tested and establish a clear understanding of the testing environment.</li><br>
-	  <li>Reconnaissance: Gather information about the target, like domain names, IP addresses, and network infrastructure. If the target is an application, you would step through the functionality and observe how the application is intended to be used.</li><br>
- 	 <li>Vulnerability Scanning: Use automated tools to discover live hosts, open ports, and services. It's like finding all the doors and windows of a building you want to break into. If an application is the target web application vulnerability scanning tools can be used to help identify any low hanging fruit.</li><br>
-  	<li>Exploitation: An attempt to exploit vulnerabilities to gain unauthorized access or in the case of an application abuse a function to do things the developer did not intend, just like a real attacker would. This process could involve using known exploits and attack vectors or trying to find new ones.</li><br>
-  	<li>Escalation: Attempt to escalate privilege of the vulnerability, either by chaining vulnerabilities and/or performing exploiting the host operating system.</li><br>
-  	<li>Persistence: Aka pivoting, after a single host has been compromised the machine could be used to access other services or hosts using a process called pivoting.</li><br>
- 	 <li>Reporting: Fun time is officially over, now it is time for the consultant to document the issues discovered in the above processes and present them in a report that documents the discovered issues, severity, risk, and a recommendation to fix any discovered vulnerabilities.</li>
+    <li><strong>Intelligence Gathering:</strong> Conduct thorough research on the target system, including its architecture, components, and known vulnerabilities.</li><br>
+    <li><strong>Static Analysis:</strong> Disassemble or decompile the code to understand its structure and identify potential vulnerabilities using static code analysis tools.</li><br>
+    <li><strong>Dynamic Analysis:</strong> Execute the code in a controlled environment and monitor its behavior, network traffic, and resource usage to identify vulnerabilities and potential exploits.</li><br>
+    <li><strong>Vulnerability Identification:</strong> Analyze the code for common vulnerabilities like buffer overflows, integer overflows, unauthenticated access, and insecure cryptographic implementations.</li><br>
+    <li><strong>Exploit Development:</strong> Create a proof-of-concept exploit to demonstrate the vulnerability's impact and assess its severity.</li><br>
+    <li><strong>Mitigation and Prevention:</strong> Report the vulnerability to the vendor or developer and recommend appropriate mitigation strategies, such as patches, workarounds, or security best practices.</li><br>
+    <li><strong>Documentation:</strong> The purpose of this documentation is to ensure that the insights acquired are preserved for future reference, analysis, or application.</li><br>
 	</ol>
 
 	</div>
@@ -189,166 +179,131 @@ description: "Learn about what penetration testing is, the benefits, testing typ
 
 <section class="features">
 	<div class="grid">
-     <h2>Taking Care</h2>
-		<h3>Stay in Scope</h3>
-		<p>As a penetration tester you are carrying out a controlled simulation; care must be taken to always adhere to the scope and not step outside of the agreed upon assessment scope.</p>
-		<h3>Technical Contact</h3>
-		<p>If issues or questions arise, always ensure you have a direct contact with the organisations technical contact. You may need to clarify an area of the scope or seek additional approval before executing a potentially disruptive exploit. Firewalls and WAF’s might cause issue during testing and require you to contact the client to add your testing IP on their allow list. </p>
-	</div>
-</section>
-
-<section class="features">
-	<div class="grid">
-     <h2>Penetration Testing Tools</h2>
-		<p>During an assessment multiple tools will be used depending on the phase of the test and type of pen test that is being performed.</p> 
-		<p>An example of an indicative list of some pen test tooling for an infrastructure penetration test: </p>
-		<ol>
-	  	<li>Reconnaissance: Tools such as subfinder, Google dorks, Waybackurls, <a href="/blog/naabu-cheat-sheet/">Nmap</a>, <a href="/blog/nmap-cheat-sheet/">Naabu</a>, Shodan, recon-ng, TheHarvester.</li><br>
-	  	<li>Vulnerability Scanning: OpenVAS, Nessus, Nuclei.</li><br>
-  		<li>Exploitation: Exploit-db, Metasploit Framework, OpenVAS, Nessus, Nuclei.</li><br>
-  		<li>Escalation: Typically privilege escalation is performed manually against appliances or operating systems, e.g., using a <a href="/blog/linux-local-enumeration-script/">Linux local privilege escalation script</a> or by performing this manually.</li><br>
-  		<li>Pivoting: Again, this phase is performed manually and depends greatly on the target operating system which has been compromised, see our <a href="/ssh-meterpreter-pivoting-techniques/">pivoting cheat sheet</a> for more information.</li><br>
-		</ol>
-		<p>For more information see our <a href="/blog/penetration-testing-tools-cheat-sheet/">cheat sheet on penetration testing tools</a>.</p>
-
-	</div>
-</section>
-
-
-<section class="features">
-	<div class="grid">
-     <h2>Penetration Testing FAQ</h2>
-		<section class="enum-box">
-	  <div class="grid">
-	    <div class="unit whole">
-      		<div class="grid pane">
-       		 <div class="unit whole center-on-mobiles">
-       		  <img src="/img/cost-of-pen-test.jpg" alt="cost of a penetration test">
-          	<div class="pane-content">
-            		<h3 class="center-on-mobiles"><strong>How Much</strong> How Much Does a Penetration Test Cost?</h3> 
-			<p>The cost of a penetration test can vary widely depending on several factors such as the scope of the test, the complexity of the systems being tested, the size of the organization, and the expertise of the security firm conducting the test. This is another reason why careful, and accurate scoping should be performed. </p>
-		<p>Generally, you can expect to pay anywhere from a few thousand dollars to tens of thousands of dollars for a comprehensive penetration test. Some firms may charge hourly rates, while others may offer fixed-price packages for specific types of tests.</p>
-		<p>It's essential to carefully consider your organization's needs and budget when selecting a penetration testing provider and to ensure that you're getting a thorough and reliable assessment of your security posture.</p>
-          	</div>
-        	</div>
-       		 <div class="clear"></div>
-      		</div>
-   		 </div>
-  </div>
-</section>
-		
-		<h3>What is Enumeration? </h3>
-		<p>In the context of penetration testing, enumeration refers to the process of actively gathering information about a target system or network to identify potential vulnerabilities or weak points that could be exploited by attackers.</p>
-		<p>Enumeration typically involves using various techniques such as scanning, probing, and querying to gather information about network services, system configurations, user accounts, and other relevant details. This information can then be used by the penetration tester to assess the security posture of the target environment and identify potential avenues for further exploitation.</p>
-		
-		<section class="enum-box-b">
-	  <div class="grid">
-	    <div class="unit whole">
-      		<div class="grid pane">
-       		 <div class="unit whole center-on-mobiles">
-       		  <img src="/img/how-often-to-pentest.gif" alt="how often to perform penetration testing">
-          	<div class="pane-content">
-            		<h3 class="center-on-mobiles"><strong>How Often</strong> Should an Organization Perform a Penetration Test?</h3> 
-			<p>Organizations should perform penetration tests regularly to proactively identify and address security vulnerabilities and assess the effectiveness of their security controls. The frequency of testing may vary depending on factors such as regulatory requirements, changes in the IT environment, and the organization's risk profile. Typically, organizations should conduct penetration tests annually or more frequently if there are significant changes to the IT infrastructure, applications, or security policies.</p>
-		<p>Regular penetration testing helps organizations stay ahead of evolving threats, validate the effectiveness of security measures, and ensure compliance with regulatory requirements. It also provides valuable insights into potential weaknesses in the security posture that can be addressed to mitigate the risk of security breaches and data breaches. Ultimately, the goal is to establish a proactive approach to security that helps organizations identify and address vulnerabilities before they can be exploited by malicious actors.</p>
-          	</div>
-        	</div>
-       		 <div class="clear"></div>
-      		</div>
-   		 </div>
-  </div>
-</section>
-		
-		<h3>What Systems Should Be Tested? </h3>
-		<p>During a penetration test, it's essential to test a wide range of systems, networks, and applications to identify potential vulnerabilities and assess the overall security posture of an organization. This includes testing both internal and external-facing systems, as well as web applications, databases, and other critical assets.</p>
-		<p><b>Overview:</b></p>
-		<ul>
-  <li><strong>External-facing systems:</strong>
-    <ul>
-      <li>Web servers</li>
-      <li>Email servers</li>
-      <li>DNS servers</li>
-      <li>VPN gateways</li>
-      <li>Remote access services</li>
-    </ul>
-  </li><br>
-  <li><strong>Internal systems:</strong>
-    <ul>
-      <li>Workstations</li>
-      <li>Servers</li>
-      <li>Printers and other network devices</li>
-      <li>Internal applications and services</li>
-    </ul>
-  </li><br>
-  <li><strong>Web & Mobile applications:</strong>
-    <ul>
-      <li>Customer portals</li>
-      <li>E-commerce platforms</li>
-      <li>Content management systems</li>
-      <li>Web APIs</li>
-      <li>iOS & Android mobile apps</li>
-    </ul>
-  </li><br>
-  <li><strong>Databases:</strong>
-    <ul>
-      <li>SQL servers</li>
-      <li>NoSQL databases</li>
-      <li>Data warehouses</li>
-      <li>Data lakes</li>
-    </ul>
-  </li><br>
-  <li><strong>Wireless networks:</strong>
-    <ul>
-      <li>Wi-Fi access points</li>
-      <li>Wireless controllers</li>
-      <li>Bluetooth devices</li>
-    </ul>
-  </li><br>
-  <li><strong>Cloud services:</strong>
-    <ul>
-      <li>Infrastructure as a Service (IaaS) platforms</li>
-      <li>Platform as a Service (PaaS) offerings</li>
-      <li>Software as a Service (SaaS) applications</li>
-    </ul>
-  </li><br>
-  <li><strong>Physical security:</strong>
-    <ul>
-      <li>Access control systems</li>
-      <li>Surveillance cameras</li>
-      <li>Alarm systems</li>
-    </ul>
-  </li><br>
-  <li><strong>Human factors:</strong>
-    <ul>
-      <li>Social engineering attacks</li>
-      <li>Phishing simulations</li>
-      <li>Security awareness training</li>
-    </ul>
-  </li>
+    <h2>Ethical Considerations</h2><br>
+<ul>
+  <li>Obtain proper authorization: Ensure you have permission to analyze the system.</li>
+  <li>Respect intellectual property: Avoid violating copyright or licensing agreements.</li>
+  <li>Act responsibly: Use your findings ethically and responsibly.</li>
+  <li>Stay within scope: Adhere to the agreed-upon boundaries of the research.</li>
+  <li>Avoid causing harm: Minimize any potential negative impact on the system or its users.</li>
+  <li>Report vulnerabilities responsibly: Follow ethical reporting guidelines and coordinate with the vendor or developer.</li>
 </ul>
-		<section class="enum-box">
-	  <div class="grid">
-	    <div class="unit whole">
-      		<div class="grid pane">
-       		 <div class="unit whole center-on-mobiles">
-       		  <img src="/img/recon.jpg" alt="recon image">
-          	<div class="pane-content">
-            		<h3 class="center-on-mobiles"><strong>What Is</strong> Recon?</h3>
-           		<p>“Recon” is an abbreviation for reconnaissance, which refers to the preliminary phase of information gathering about a target system or network. Reconnaissance involves collecting data about the target environment to understand its structure, components, and potential vulnerabilities.</p>
-          	</div>
-        	</div>
-       		 <div class="clear"></div>
-      		</div>
-   		 </div>
-  </div>
+</div>
 </section>
-	<h3>What is Persistence? </h3>
-		<p>In this context, "persistence" refers to the ability of an attacker to maintain access to a compromised system or network over an extended period without being detected. After gaining initial access through a vulnerability or exploit, an attacker may seek to establish persistence by deploying reverse shells, creating hidden user accounts, installing malicious software, or modifying system configurations to maintain access even after the initial breach has been remediated.</p>
-	
 
-		
+<section class="features">
+	<div class="grid">
+     <h2>Reverse Engineering Tools and Techniques</h2>
+		<p>During an assessment multiple tools will be used depending on the phase of the test and type of reverse engineering that is being performed.</p> 
+
+	<h3>1. Intelligence Gathering</h3>
+<ul>
+<li><strong>Tools and Techniques:</strong>
+    <ul>
+        <li>Google Search</li>
+        <li>Specialized Search Engines (Shodan, Censys, ZoomEye)</li>
+        <li>Vulnerability Databases (CVE, NVD, Exploit-DB)</li>
+        <li>Threat Intelligence Feeds</li>
+        <li>Social Media Monitoring</li>
+    </ul>
+</li>
+<li><strong>Methods:</strong>
+    <ul>
+        <li>Open-source intelligence (OSINT)</li>
+        <li>Technical reconnaissance</li>
+        <li>Competitive intelligence</li>
+    </ul>
+</li>
+</ul>
+
+<h3>2. Static Analysis</h3>
+<ul>
+<li><strong>Tools:</strong>
+    <ul>
+        <li>Disassemblers (IDA Pro, Ghidra, Hopper, Binary Ninja)</li>
+        <li>Decompilers (JD-GUI, DotPeek)</li>
+        <li>Static code analyzers (SonarQube, Fortify SCA, Veracode)</li>
+    </ul>
+</li>
+<li><strong>Methods:</strong>
+    <ul>
+        <li>Manual analysis</li>
+        <li>Automated analysis</li>
+        <li>Pattern matching</li>
+        <li>Dataflow analysis</li>
+    </ul>
+</li>
+</ul>
+
+<h3>3. Dynamic Analysis</h3>
+<ul>
+<li><strong>Tools:</strong>
+    <ul>
+        <li>Debuggers (GDB, LLDB, OllyDbg)</li>
+        <li>Sandboxing tools (Virtual machines, sandboxing frameworks)</li>
+        <li>Network monitoring tools (Wireshark, tcpdump)</li>
+        <li>System monitoring tools (Process Explorer, Task Manager)</li>
+    </ul>
+</li>
+<li><strong>Methods:</strong>
+    <ul>
+        <li>Execution monitoring</li>
+        <li>Input testing</li>
+        <li>Memory analysis</li>
+        <li>Network traffic analysis</li>
+    </ul>
+</li>
+</ul>
+
+<h3>4. Vulnerability Exploitation</h3>
+<ul>
+<li><strong>Tools:</strong>
+    <ul>
+        <li>Exploit development frameworks (Metasploit, Corelan Exploit Writing Kit)</li>
+        <li>Shellcode generation tools (msfvenom, shellcode compiler)</li>
+        <li>Payload generation tools (msfvenom, Veil-Evasion)</li>
+    </ul>
+</li>
+<li><strong>Methods:</strong>
+    <ul>
+        <li>Create a proof-of-concept exploit</li>
+        <li>Test the exploit</li>
+        <li>Refine the exploit</li>
+    </ul>
+</li>
+</ul>
+
+<h3>5. Mitigation and Prevention</h3>
+<ul>
+<li><strong>Tools:</strong>
+    <ul>
+        <li>Patch management systems</li>
+        <li>Intrusion detection systems (IDS)</li>
+        <li>Intrusion prevention systems (IPS)</li>
+        <li>Security information and event management (SIEM) systems</li>
+    </ul>
+</li>
+<li><strong>Methods:</strong>
+    <ul>
+        <li>Implement security best practices</li>
+        <li>Educate users</li>
+        <li>Monitor for new vulnerabilities</li>
+        <li>Conduct regular security assessments</li>
+    </ul>
+</li>
+</ul>
+		<p>For more information our cheat sheet on reverse engineering coming soon..</a>.</p>
+
+	</div>
+</section>
+
+
+<section class="features">
+	<div class="grid">
 		<h3>Conclusion</h3>
-		<p>In conclusion, penetration testing serves as a crucial pillar of proactive cybersecurity strategies, offering organizations a vital means to assess and fortify their digital defenses. By simulating real-world cyber-attacks, penetration testing provides invaluable insights into potential vulnerabilities, helping organizations identify and mitigate risks before they are exploited by malicious actors. From uncovering weaknesses in network infrastructure to evaluating the security of web applications and cloud services, penetration testing empowers organizations to proactively strengthen their security posture and safeguard sensitive data. Embracing penetration testing as a regular practice enables organizations to stay ahead of emerging threats, comply with regulatory requirements, and instill confidence in their ability to protect against cyber threats in an increasingly interconnected digital landscape.</p>
+		<p>Reverse engineering is a critical component of modern cybersecurity. By dissecting software and hardware systems, researchers can uncover vulnerabilities, understand attack techniques, and develop effective countermeasures. This proactive approach is essential to staying ahead of emerging threats and ensuring the security of our increasingly digital world. Reverse engineering empowers security professionals to identify and mitigate risks, safeguarding sensitive information and protecting individuals and organizations from cyberattacks.
+
+    </p>
 	
 	</div>
 </section>
@@ -360,10 +315,10 @@ description: "Learn about what penetration testing is, the benefits, testing typ
     <div class="unit whole">
       <div class="grid pane">
         <div class="unit whole center-on-mobiles">
-         <img src="/img/nmap.png" width="300" height="251" alt="nmap scan image">
+         <img src="/img/ghidra.png" width="240" height="240" alt="ghidra image">
           <div class="pane-content">
-            <h2 class="center-on-mobiles"><strong>Learn More</strong> About Penetration Testing</h2>
-            <p>See more of our penetration testing related articles below.</p>
+            <h2 class="center-on-mobiles"><strong>Learn More</strong> About Security Research</h2>
+            <p>See more of our security research related articles below.</p>
           </div>
         </div>
         <div class="clear"></div>
@@ -383,7 +338,7 @@ description: "Learn about what penetration testing is, the benefits, testing typ
     </tr>
   </thead>
       <tbody>
-        {% for post in site.tags.pen-testing %}
+        {% for post in site.tags.reverse-engineering %}
         <tr>
            <td>
              <pc><p><code>{{ post.date | date_to_string }}</code></p></pc>
