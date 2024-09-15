@@ -10,6 +10,7 @@ tags:
 - Tools
 - 'Project Discovery'
 - 'Pen-Testing'
+- cheat-sheet
 ---
 
 ![Subfinder Logo](/img/subfinder-logo.png)

@@ -7,8 +7,9 @@ description: 'LFI Explained and the techniques to leverage a shell from a local 
 categories: [cheat-sheet]
 tags:
 - LFI
-- 'Web Application Penetration Testing'
+- Web
 - 'Pen-Testing'
+- cheat-sheet
 ---
 
 * list element with functor item

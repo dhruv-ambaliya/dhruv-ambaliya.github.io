@@ -8,6 +8,7 @@ categories: [Web App Security]
 tags:
 - 'Pen-Testing'
 - 'Web App Security'
+- Web
 ---
 
 

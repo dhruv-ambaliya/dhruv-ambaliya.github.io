@@ -10,6 +10,7 @@ tags:
 - 'linux-enum'
 - 'Enumeration'
 - 'linux-commands'
+- cheat-sheet
 ---
 
 * list element with functor item

@@ -9,6 +9,7 @@ tags:
 - Mobile
 - Tools
 - 'Pen-Testing'
+- cheat-sheet
 ---
 
 ## What is adb? 

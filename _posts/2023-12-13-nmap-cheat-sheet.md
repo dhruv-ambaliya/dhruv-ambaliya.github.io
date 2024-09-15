@@ -6,6 +6,7 @@ author: Dhruv Ambaliya
 description: 'Nmap Cheat Sheet, learn Nmap commands, flags & real world exmaples allowing you to leverage the OG portscanner.'
 categories: [cheat-sheet]
 tags:
+- cheat-sheet
 - 'Pen-Testing'
 - 'Enumeration'
 - 'host-enum'

@@ -5,7 +5,16 @@ permalink: /blog/
 author: all
 description: "Welcome to HacksofDhruv.me a Security Research and Penetration Testing Blog."
 ---
+<style>
+  .filter-container select {
+    color: black; /* Change this to the desired text color */
+    background-color: white; /* Optional: Change the background color */
+  }
 
+  .filter-container option {
+    color: black; /* Change this to the desired text color */
+  }
+</style>
 <article>
 
   <section class="enum-box">
@@ -32,26 +41,54 @@ description: "Welcome to HacksofDhruv.me a Security Research and Penetration Tes
   </section>
 
 <div class="mobile-side-scroller">
-<table>
-  <thead>
-    <tr>
-      <th>Date</th>
-      <th>Post Name</th>
-    </tr>
-  </thead>
-      <tbody>
-        {% for post in site.posts %}
-        <tr>
-           <td>
-             <pc><p><code>{{ post.date | date_to_string }}</code></p></pc>
-           </td>
-           <td>
-             <pc><p><b><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></b></p></pc>
-           </td>
-        </tr>
-        {% endfor %}
-      </tbody>
-
-</table>
+  <div class="filter-container">
+    <label for="tag-filter">Filter:</label>
+    <select id="tag-filter" onchange="filterPostsByTag()">
+      <option value="all">All</option>
+      <option value="Pen-Testing">Pen testing</option>
+      <option value="reverse-engineering">Reverse engineering</option>
+      <option value="cheat-sheet">Cheat sheet</option>
+      <option value="Tools">Tools</option>
+      <option value="CTF">CTF Walkthrough</option>
+      <option value="Web">Web pen testing</option>
+      <option value="Mobile">Mobile pen testing</option>
+    </select>
+  </div>
+  <table id="posts-table">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Post Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for post in site.posts %}
+      <tr data-tags="{{ post.tags | join: ' ' }}">
+        <td>
+          <p><code>{{ post.date | date_to_string }}</code></p>
+        </td>
+        <td>
+          <p><b><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></b></p>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
 </div>
+
+<script>
+  function filterPostsByTag() {
+    var filter = document.getElementById('tag-filter').value;
+    var rows = document.querySelectorAll('#posts-table tbody tr');
+    
+    rows.forEach(function(row) {
+      var tags = row.getAttribute('data-tags').split(' ');
+      if (filter === 'all' || tags.includes(filter)) {
+        row.style.display = '';
+      } else {
+        row.style.display = 'none';
+      }
+    });
+  }
+</script>
 </article>

@@ -7,6 +7,7 @@ description: 'Kioptrix 2014 Walkthrough, CTF solution for Kioptrix Level 2014.'
 categories: [walkthroughs]
 tags:
 - Kioptrix
+- CTF
 ---
 
 <div class="coffee-rating">

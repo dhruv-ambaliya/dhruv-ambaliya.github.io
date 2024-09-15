@@ -8,6 +8,7 @@ categories: [cheat-sheet]
 tags:
 - 'Pen-Testing'
 - 'Mobile App Penetration Testing'
+- Mobile
 ---
 
 * list element with functor item

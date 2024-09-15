@@ -8,6 +8,7 @@ categories: [cheat-sheet]
 tags:
 - 'Pen-Testing'
 - 'Linux Lateral Movement'
+- cheat-sheet
 ---
 
 * list element with functor item

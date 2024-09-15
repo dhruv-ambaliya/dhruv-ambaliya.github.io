@@ -7,6 +7,7 @@ description: 'Kioptrix Level 1.1 Walkthrough, CTF solution for Kioptrix Level 1.
 categories: [walkthroughs]
 tags:
 - Kioptrix
+- CTF
 ---
 
 <div class="coffee-rating">

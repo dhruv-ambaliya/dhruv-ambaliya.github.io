@@ -1,7 +1,7 @@
 ---
 layout: blog_item
 title: "Zorz Walkthrough"
-date: "2024-02-01"
+date: 2024-02-01 11:00:10
 author: Dhruv Ambaliya
 description: 'Zorz - Walkthrough Guide'
 categories: [walkthroughs]

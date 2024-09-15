@@ -6,6 +6,7 @@ author: Dhruv Ambaliya
 description: 'Vim cheat sheet, a collection of Vim commands and tips in a nicely presented cheat sheet for VIM / NEOVIM.'
 categories: [cheat-sheet]
 tags:
+- cheat-sheet
 - 'Vim'
 - 'vi'
 - 'Linux'

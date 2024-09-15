@@ -1,7 +1,7 @@
 ---
 layout: blog_item
 title:  "FactCheck CTF - Walkthrough"
-date:   2024-07-29 11:00:60
+date:   2024-08-02 11:00:60
 author: Dhruv Ambaliya
 description: 'picoCTF2024 FactCheck - Walkthrough Guide'
 categories: [walkthroughs]

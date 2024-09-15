@@ -5,6 +5,8 @@ date: "2024-01-02 02:12:52 +0200"
 author: Dhruv Ambaliya
 categories: [walkthroughs]
 description: "Tr0ll: 2 walkthrough - step by step write up for Tr0ll: 2 a VulnHub Boot2Root challenge."
+tags:
+- CTF
 ---
 
 <div class="coffee-rating">

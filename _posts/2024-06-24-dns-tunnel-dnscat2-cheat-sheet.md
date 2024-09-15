@@ -8,6 +8,7 @@ categories: [cheat-sheet]
 tags:
 - 'Pen-Testing'
 - 'Infrastructure'
+- cheat-sheet
 ---
 
 * list element with functor item

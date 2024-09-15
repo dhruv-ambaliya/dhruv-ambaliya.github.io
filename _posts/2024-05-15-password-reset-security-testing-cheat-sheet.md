@@ -8,6 +8,8 @@ categories: [cheat-sheet]
 tags:
 - 'Authentication'
 - 'Web Application Penetration Testing'
+- Web
+- cheat-sheet
 - 'Pen-Testing'
 ---
 

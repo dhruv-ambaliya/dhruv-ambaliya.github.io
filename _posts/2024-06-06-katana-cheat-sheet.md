@@ -10,6 +10,7 @@ tags:
 - Tools
 - 'Project Discovery'
 - 'Pen-Testing'
+- cheat-sheet
 ---
 
 ![Katana Logo](/img/katana-logo.png)

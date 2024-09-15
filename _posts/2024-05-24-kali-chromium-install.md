@@ -7,7 +7,7 @@ description: 'HowTo Install Chromium on Kali Linux and setup for Web Application
 categories: [kali linux]
 tags:
 - Kali
-- 'Web Application Penetration Testing'
+- Web
 - Chromium
 ---
 

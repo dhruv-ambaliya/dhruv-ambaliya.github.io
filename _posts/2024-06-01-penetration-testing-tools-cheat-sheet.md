@@ -11,6 +11,9 @@ tags:
 - Linux
 - Tools
 - 'Pen-Testing'
+- cheat-sheet
+- Web
+- Mobile
 ---
 
 ## Introduction 

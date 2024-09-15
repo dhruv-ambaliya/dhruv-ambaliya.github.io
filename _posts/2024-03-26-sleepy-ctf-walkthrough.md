@@ -5,6 +5,8 @@ date: "2024-03-26 23:12:52 +0200"
 author: Dhruv Ambaliya
 categories: [walkthroughs]
 description: "/dev/random: Sleepy walkthrough - step by step walkthrough for Sleepy a VulnHub Boot2Root CTF challenge."
+tags:
+- CTF
 ---
 
 <div class="coffee-rating">
