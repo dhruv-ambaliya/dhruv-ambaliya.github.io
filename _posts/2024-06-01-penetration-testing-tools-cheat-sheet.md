@@ -18,9 +18,9 @@ tags:
 
 ## Introduction 
 
-**Penetration testing tools cheat sheet**, a quick reference high level overview for typical penetration testing engagements. Designed as a quick reference cheat sheet providing a high level overview of the **typical** commands used during a [penetration testing](/penetration-testing/) engagement. For more in depth information I'd recommend the man file for the tool, or a more specific pen testing cheat sheet from the menu on the right.
+**Penetration testing tools cheat sheet**, a quick reference for common penetration testing commands and techniques. This cheat sheet is designed to provide a quick overview of **typical** commands used during a [penetration testing](/penetration-testing/) engagement.  For in-depth usage, consult the tool's manual or explore more specialized cheat sheets from the menu on the right.
 
-The focus of this cheat sheet is infrastructure / network penetration testing, web application penetration testing is not covered here apart from a few SQLMap commands at the end and some web server enumeration. For Web Application Penetration Testing, check out the Web Application Hackers Hand Book, it is excellent for both learning and reference.
+This cheat sheet focus on Infrastructure and Network penetration testing. Web application testing is not covered extensively, except for a few SQLMap commands and basic web server enumeration. For comprehensive web application testing, consider the Web Application Hacker's Handbook, it is best for both learning and reference.
 
 If I'm missing any pen testing tools here, please let me know on LinkedIn.
 
@@ -113,7 +113,7 @@ dig axfr domain-name-here.com @nameserver
 
 ##### Simply Email
 
-Use Simply Email to enumerate all the online places (github, target site etc), it works better if you use proxies or set long throttle times so google doesn't think you're a robot and make you fill out a Captcha. 
+Utilize tools like Simply Email to efficiently identify online presence (e.g., GitHub, target websites). Employ proxies or throttling to avoid detection and CAPTCHAs.
 
 ```
 git clone https://github.com/killswitch-GUI/SimplyEmail.git
@@ -243,7 +243,11 @@ Basic Nmap Commands:
   </div>
 
 
-I've had a few people mention about T4 scans, apply common sense here. Don't use T4 commands on external pen tests (when using an Internet connection), you're probably better off using a T2 with a TCP connect scan. A T4 scan would likely be better suited for an internal pen test, over low latency links with plenty of bandwidth. But it all depends on the target devices, embeded devices are going to struggle if you T4 / T5 them and give inconclusive results. As a general rule of thumb, scan as slowly as you can, or do a fast scan for the top 1000 so you can start pen testing then kick off a slower scan.
+Some have inquired about the use of T4 scans. It's crucial to exercise caution and consider the context. For external penetration testing, especially over the internet, T2 scans with TCP connect are often more prudent. The higher latency and potential bandwidth constraints of remote connections can make T4 scans less effective.
+
+Internal penetration testing, particularly on low-latency networks with ample bandwidth, might benefit from the more detailed information provided by T4 scans. However, it's essential to assess the target devices. Embedded devices, for example, may struggle with the intensity of T4 or T5 scans, leading to inconclusive results.
+
+As a general best practice, opt for slower scans to minimize disruption. Alternatively, a quick scan of the top 1000 ports can provide a preliminary understanding, allowing you to initiate penetration testing while a more thorough, slower scan runs concurrently.
 
 ###### Nmap UDP Scanning 
 
