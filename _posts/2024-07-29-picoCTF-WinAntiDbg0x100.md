@@ -19,7 +19,7 @@ tags:
                <p><code>Difficulty Rating:</code></p>
            </td>
            <td>
-               <p><i class="fa fa-coffee">Medium</i></p>
+               <p><i class="fa fa-solid fa-fire"> Medium</i></p>
            </td>
         </tr>
       </tbody>

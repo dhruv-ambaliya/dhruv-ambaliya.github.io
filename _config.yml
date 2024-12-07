@@ -1,26 +1,35 @@
 title: HacksofDhruv.me
 description: Security Research and Penetration Testing Blog
-
-author:
-  name: Dhruv Ambaliya
-  email: ambaliyadhruv123@gmail.com
   
 markdown: kramdown
 highlighter: rouge
 relative_permalinks: false
 permalink: /blog/:title/
 excerpt_separator: <!--more-->
-twitter: Dhruv Ambaliya
-twitter_username: Dhruv Ambaliya
+twitter:
+  username: Dhruv_Ambaliya_
+  card: summary
+github: Dhruv Ambaliya
 github_username: dhruv-ambaliya
+linkedin: dhruv-ambaliya-
 linkedin_username: dhruv-ambaliya-
+social:
+  name: Dhruv Ambaliya
+  links:
+    - https://x.com/Dhruv_Ambaliya_
+    - https://www.linkedin.com/in/dhruv-ambaliya-
+    - https://github.com/dhruv-ambaliya
+
+
 gauges_id:
 google_analytics_id: G-KGN0NHY04Y
 production_url: https://hacksofdhruv.me
-repository: https://github.com/dhruv-ambaliya/dhruv-ambaliya.github.io.git
+repository: https://github.com/dhruv-ambaliya/dhruv-ambaliya.github.io
 url: https://hacksofdhruv.me
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
 
 collections:
   docs:

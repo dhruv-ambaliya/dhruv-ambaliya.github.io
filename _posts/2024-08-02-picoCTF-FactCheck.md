@@ -5,6 +5,7 @@ date:   2024-08-02 11:00:60
 author: Dhruv Ambaliya
 description: 'picoCTF2024 FactCheck - Walkthrough Guide'
 categories: [walkthroughs]
+keywords: "penetration testing, security research, CTF, hacking, reverse engineering, pen testing tools, cheat sheet, hacking blog, security blog, hacking tutorials, security tutorials, CTFS walkthroughs, boot2root, walkthroughs, hacking tools, hacking tools documentation, testing tools" 
 tags:
 - CTF
 - reverse-engineering
@@ -19,7 +20,7 @@ tags:
                <p><code>Difficulty Rating:</code></p>
            </td>
            <td>
-               <p><i class="fa fa-coffee">Medium</i></p>
+               <p><i class="fa fa-solid fa-fire"> Medium</i></p>
            </td>
         </tr>
       </tbody>

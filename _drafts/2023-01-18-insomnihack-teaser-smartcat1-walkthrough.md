@@ -17,7 +17,7 @@ tags:
                <p><code>Coffee Difficulty Rating:</code></p>
            </td>
            <td>
-               <p><i class="fa fa-coffee"></i></p>
+               <p><i class="fa fa-solid fa-fire">Easy</i></p>
            </td>
         </tr>
       </tbody>

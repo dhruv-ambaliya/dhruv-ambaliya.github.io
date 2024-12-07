@@ -18,7 +18,7 @@ tags:
                <p><code>Difficulty Rating:</code></p>
            </td>
            <td>
-               <p><i class="fa fa-coffee">Intermediate</i></p>
+               <p><i class="fa-solid fa-fire">Intermediate</i></p>
            </td>
         </tr>
       </tbody>
