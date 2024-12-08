@@ -1,15 +1,3 @@
-User-agent: *
-Allow: /
-
-User-agent: AhrefsBot
-Disallow: /
-
-User-agent: MJ12bot
-Disallow: /
-
-User-agent: rogerbot
-Disallow: /
-
 Sitemap: https://hacksofdhruv.me/feed.xml
 Sitemap: https://hacksofdhruv.me/sitemap.xml
 Sitemap: https://www.hacksofdhruv.me/sitemap.xml
