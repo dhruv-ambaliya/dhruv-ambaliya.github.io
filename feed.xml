@@ -24,8 +24,8 @@ permalink: /feed.xml
       <url>https://hacksofdhruv.me/img/hacksofdhruv.png</url>
       <title>HacksofDhruv.me</title>
       <link>https://hacksofdhruv.me/</link>
-      <width>144</width>
-      <height>73</height>
+      <width>309</width>
+      <height>65</height>
     </image>
     {% for post in site.posts %}
       {% unless post.draft %}
