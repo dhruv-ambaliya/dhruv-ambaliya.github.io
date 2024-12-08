@@ -1,21 +1,15 @@
 ---
 layout: blog_item
-title:  "FactCheck CTF - Walkthrough"
+title:  FactCheck CTF - Walkthrough
+overview: true
 date:   2024-08-02 11:00:60
-author: Dhruv Ambaliya
+# author: Dhruv Ambaliya
 description: 'picoCTF2024 FactCheck - Walkthrough Guide'
 categories: [walkthroughs]
 keywords: "penetration testing, security research, CTF, hacking, reverse engineering, pen testing tools, cheat sheet, hacking blog, security blog, hacking tutorials, security tutorials, CTFS walkthroughs, boot2root, walkthroughs, hacking tools, hacking tools documentation, testing tools" 
 tags:
 - CTF
 - reverse-engineering
-
-social:
-  name: Dhruv Ambaliya
-  links:
-    - https://x.com/Dhruv_Ambaliya_
-    - https://www.linkedin.com/in/dhruv-ambaliya-
-    - https://github.com/dhruv-ambaliya
 ---
 
 
