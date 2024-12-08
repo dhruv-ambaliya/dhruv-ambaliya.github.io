@@ -1,4 +1,4 @@
-title: HacksofDhruv.me
+name: HacksofDhruv.me
 description: Security Research and Penetration Testing Blog
   
 markdown: kramdown
@@ -20,9 +20,10 @@ social:
     - https://www.linkedin.com/in/dhruv-ambaliya-
     - https://github.com/dhruv-ambaliya
 
-
+logo: "/img/hacksofdhruv.png"
 gauges_id:
 google_analytics_id: G-KGN0NHY04Y
+google_site_verification: _EUyQqszRKbJZ2aen5wfzpzrMS4jyzuLAjBWucm4oWg
 production_url: https://hacksofdhruv.me
 repository: https://github.com/dhruv-ambaliya/dhruv-ambaliya.github.io
 url: https://hacksofdhruv.me

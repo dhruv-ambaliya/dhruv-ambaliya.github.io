@@ -9,6 +9,13 @@ keywords: "penetration testing, security research, CTF, hacking, reverse enginee
 tags:
 - CTF
 - reverse-engineering
+
+social:
+  name: Dhruv Ambaliya
+  links:
+    - https://x.com/Dhruv_Ambaliya_
+    - https://www.linkedin.com/in/dhruv-ambaliya-
+    - https://github.com/dhruv-ambaliya
 ---
 
 

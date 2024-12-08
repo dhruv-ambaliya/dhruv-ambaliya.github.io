@@ -1,5 +1,5 @@
 User-agent: *
-Disallow: 
+Allow: /
 
 User-agent: AhrefsBot
 Disallow: /
@@ -11,6 +11,5 @@ User-agent: rogerbot
 Disallow: /
 
 Sitemap: https://hacksofdhruv.me/feed.xml
-Sitemap: {{ "sitemap.xml" | absolute_url }}
 Sitemap: https://hacksofdhruv.me/sitemap.xml
 Sitemap: https://www.hacksofdhruv.me/sitemap.xml
