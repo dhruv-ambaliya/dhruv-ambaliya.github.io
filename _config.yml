@@ -1,14 +1,12 @@
 name: HacksofDhruv.me
 description: Security Research and Penetration Testing Blog
-  
 markdown: kramdown
 highlighter: rouge
 relative_permalinks: false
 permalink: /blog/:title/
 excerpt_separator: <!--more-->
-twitter:
-  username: Dhruv_Ambaliya_
-  card: summary
+twitter: Dhruv_Ambaliya_
+twitter_username: Dhruv_Ambaliya_
 github: Dhruv Ambaliya
 github_username: dhruv-ambaliya
 linkedin: dhruv-ambaliya-
