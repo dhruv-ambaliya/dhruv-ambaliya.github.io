@@ -2068,9 +2068,9 @@ For 32 bit:
 gcc -m32 -o suid suid.c  
 {% endhighlight %}
 
-<!-- ## Reverse Shells
+## Reverse Shells
 
-See [Reverse Shell Cheat Sheet](/blog/reverse-shell-cheat-sheet/) for a list of useful Reverse Shells. -->
+See [Reverse Shell Cheat Sheet](https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet) for a list of useful Reverse Shells.
 
 ## TTY Shells
 
