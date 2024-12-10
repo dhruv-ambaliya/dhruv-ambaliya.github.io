@@ -9,17 +9,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <!-- Preload and inline critical CSS -->
-  <style>
-    /* Inline critical CSS here */
-    body {
-      font-family: 'Lato', sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    /* Add other critical CSS rules here */
-  </style>
-
   <!-- Preload non-critical CSS -->
   <link rel="preload" href="{{ 'css/screen.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="{{ 'css/screen.css' | relative_url }}"></noscript>
