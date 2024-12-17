@@ -11,7 +11,7 @@ tags:
 ---
 
 
-<div class="coffee-rating">
+<div class="rating">
 <table>
       <tbody>
         <tr>
