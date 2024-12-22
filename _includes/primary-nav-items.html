@@ -1,23 +1,11 @@
 <ul>
-  <li class="{% if page.overview %}current{% endif %}">
-    <a href="/">Home</a>
-  </li>
-  <li class="{% if page.url contains '/blog' %}current{% endif %}">
-    <a href="/blog/">Blog</a>
-  </li>
-   <li class="{% if page.url contains '/about' %}current{% endif %}">
-    <a href="/about/">About</a>
-  </li>
-  <li class="{% if page.url contains '/publication' %}current{% endif %}">
-    <a href="/publication/">Publication</a>
-  </li>
-  <!-- <li class="{% if page.url contains '/services' %}current{% endif %}">
-    <a href="/services/">Services</a>
-  </li> -->
-<!--   <li class="{% if page.url contains '/about' %}current{% endif %}">
-    <a href="/about/"><span class="hide-on-mobiles">About</span></a>
-  </li>
-  <li class="{% if page.url contains '/services' %}current{% endif %}">
-    <a href="/services/"><span class="hide-on-mobiles">Services</span></a>
-  </li> -->
+  {% for p in site.data.primary_nav -%}
+  <li
+    {%- if p.link == '/' -%}
+      {% if page.url == p.link %} class="current" {%- endif -%}
+    {% else -%}
+      {% if page.url contains p.link %} class="current" {%- endif -%}
+    {% endif -%}
+  ><a href="{{ p.link | relative_url }}">{{ p.title }}</a></li>
+  {% endfor -%}
 </ul>

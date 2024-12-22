@@ -1,0 +1,12 @@
+- title: Home
+  link: /
+  show_on_mobile: true
+- title: Blog
+  link: /blog/
+  show_on_mobile: true
+- title: About
+  link: /about/
+  show_on_mobile: true
+- title: Publication
+  link: /publication/
+  show_on_mobile: true
