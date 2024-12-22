@@ -1,3 +1,4 @@
+# Site settings
 name: HacksofDhruv
 description: Security Research and Penetration Testing Blog
 markdown: kramdown
@@ -5,12 +6,16 @@ highlighter: rouge
 relative_permalinks: false
 permalink: /blog/:title/
 excerpt_separator: <!--more-->
+
+# Social media settings
 twitter: Dhruv_Ambaliya_
 twitter_username: Dhruv_Ambaliya_
 github: Dhruv Ambaliya
 github_username: dhruv-ambaliya
 linkedin: dhruv-ambaliya-
 linkedin_username: dhruv-ambaliya-
+
+# Social links
 social:
   name: Dhruv Ambaliya
   links:
@@ -18,20 +23,25 @@ social:
     - https://www.linkedin.com/in/dhruv-ambaliya-
     - https://github.com/dhruv-ambaliya
 
-logo: "/img/hacksofdhruv-logo.webp"
+# Logo and images
+logo: "/img/logo.webp"
+
+# Analytics and verification
 gauges_id:
 google_analytics_id: G-KGN0NHY04Y
 google_site_verification: _EUyQqszRKbJZ2aen5wfzpzrMS4jyzuLAjBWucm4oWg
+
+# URLs
 production_url: https://hacksofdhruv.me
 repository: https://github.com/dhruv-ambaliya/dhruv-ambaliya.github.io
 url: https://hacksofdhruv.me
+
+# Plugins
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
 
+# Collections
 collections:
   docs:
-    output: true
-imagemagick_convert: /usr/local/bin/convert
-imagemagick_identify: /usr/local/bin/identify
