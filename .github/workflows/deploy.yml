@@ -24,6 +24,18 @@ jobs:
     - name: Build Jekyll site
       run: bundle exec jekyll build
 
+    - name: Set Cache-Control headers
+      run: |
+        find _site -type f -name "*.html" -exec echo "Cache-Control: public, max-age=600" \; -exec mv {} {}.tmp \; -exec mv {}.tmp {} \;
+        find _site -type f -name "*.css" -exec echo "Cache-Control: public, max-age=31536000, immutable" \; -exec mv {} {}.tmp \; -exec mv {}.tmp {} \;
+        find _site -type f -name "*.js" -exec echo "Cache-Control: public, max-age=31536000, immutable" \; -exec mv {} {}.tmp \; -exec mv {}.tmp {} \;
+        find _site -type f -name "*.jpg" -exec echo "Cache-Control: public, max-age=31536000, immutable" \; -exec mv {} {}.tmp \; -exec mv {}.tmp {} \;
+        find _site -type f -name "*.jpeg" -exec echo "Cache-Control: public, max-age=31536000, immutable" \; -exec mv {} {}.tmp \; -exec mv {}.tmp {} \;
+        find _site -type f -name "*.png" -exec echo "Cache-Control: public, max-age=31536000, immutable" \; -exec mv {} {}.tmp \; -exec mv {}.tmp {} \;
+        find _site -type f -name "*.gif" -exec echo "Cache-Control: public, max-age=31536000, immutable" \; -exec mv {} {}.tmp \; -exec mv {}.tmp {} \;
+        find _site -type f -name "*.webp" -exec echo "Cache-Control: public, max-age=31536000, immutable" \; -exec mv {} {}.tmp \; -exec mv {}.tmp {} \;
+        find _site -type f -name "*.svg" -exec echo "Cache-Control: public, max-age=31536000, immutable" \; -exec mv {} {}.tmp \; -exec mv {}.tmp {} \;
+
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
