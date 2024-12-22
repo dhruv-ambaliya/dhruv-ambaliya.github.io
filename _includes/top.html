@@ -4,39 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   {% feed_meta %}
-  <link rel="canonical" href="{{ site.production_url }}{{ page.url | replace:'index.html',''}}">
-  <link rel="alternate" type="application/rss+xml" title="HacksofDhruv - penetration testing, hacking and security research" href="/feed.xml">
-
-
-  <!-- Inline Critical CSS -->
-  <style>
-    body {
-      font-family: 'Lato', sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    .first {
-      font-size: 2em;
-      font-weight: bold;
-      color: #ddd;
-      text-align: center;
-      margin-top: 20px;
-    }
-    /* Add other critical CSS rules here */
-  </style>
-  <!-- Preload Font Awesome -->
-  <link rel="preload" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"></noscript>
-
-  <!-- Preload non-critical CSS -->
-  <link rel="preload" href="{{ 'css/screen.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="{{ 'css/screen.css' | relative_url }}"></noscript>
-
+  <link rel="alternate" type="application/rss+xml" title="HacksofDhruv - penentration testing, hacking and security research" href="/feed.xml">
+    <link rel="preload" href="{{ '//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css' | relative_url }}" as="style">
+  <link rel="stylesheet" href="{{ '//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css' | relative_url }}">
+  <link rel="preload" href="{{ 'css/screen.css' | relative_url }}" as="style">
+  <link rel="stylesheet" href="{{ 'css/screen.css' | relative_url }}">
   <link rel="icon" type="image/x-icon" href="{{ 'favicon.ico' | relative_url }}">
   {% seo %}
   <!--[if lt IE 9]>
-  <script defer src="/js/html5shiv.min.js"></script>
-  <script defer src="/js/respond.min.js"></script>
+  <script src="/js/html5shiv.min.js"></script>
+  <script src="/js/respond.min.js"></script>
   <![endif]-->
-  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <!-- Place this tag in your head or just before your close body tag. -->
+   <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
