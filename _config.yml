@@ -29,6 +29,17 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
+  - jekyll-assets
+
+assets:
+  features:
+    automatic_img_size: true
+  sources:
+    - _assets/css
+    - _assets/js
+    - _assets/images
+    - _sass
+  cachebust: true
 
 collections:
   docs:
