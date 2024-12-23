@@ -5,7 +5,7 @@ overview: true
 date:   2024-08-02 11:00:60
 author: Dhruv Ambaliya
 description: 'picoCTF2024 FactCheck - Walkthrough Guide'
-image: 'img/hacksofdhurv.png'
+image: '/img/blog/factCheck/factcheck_des.webp'
 categories: [walkthroughs]
 keywords: "penetration testing, security research, CTF, hacking, reverse engineering, pen testing tools, cheat sheet, hacking blog, security blog, hacking tutorials, security tutorials, CTFS walkthroughs, boot2root, walkthroughs, hacking tools, hacking tools documentation, testing tools" 
 tags:

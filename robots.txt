@@ -1,3 +1,2 @@
 Sitemap: https://hacksofdhruv.me/feed.xml
 Sitemap: https://hacksofdhruv.me/sitemap.xml
-Sitemap: https://www.hacksofdhruv.me/sitemap.xml
