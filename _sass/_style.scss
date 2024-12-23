@@ -50,6 +50,7 @@ header, section, footer {
 
 /* Header */
 
+
 header {
   padding: 5px;
   background-color: #000;
@@ -79,11 +80,12 @@ header {
   .logo a {
     display: flex; /* Use flexbox for easy alignment */
     align-items: center; /* Vertically center the image and text */
+    text-decoration: none;
   }
 
   .span, .i {
     display: inline-block;
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-family: cursive;
     @include border-radius(5px);
     padding: 0em 0.1em;
@@ -101,12 +103,12 @@ header {
 }
 
 /* Hover effect to swap backgrounds */
-.span:hover, .i:hover {
+.logo a:hover .span, .logo a:hover .i {
   background-color: #87CEEB;
   color: #000;
 }
 
-.span:hover + .i, .i:hover + .span {
+.logo a:hover .span + .i, .logo a:hover .i + .span {
   background-color: #000;
   color: #cd5c5c;
 }
